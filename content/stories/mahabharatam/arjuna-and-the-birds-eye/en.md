@@ -9,6 +9,8 @@ Long ago, in a kingdom called Hastinapura, there lived five brothers. People cal
 
 Their teacher's name was Drona. He was a quiet man with kind eyes and a long grey beard. He taught the boys how to hold a bow, how to breathe slowly, and how to wait. Waiting, he said, was the hardest lesson of all.
 
+He never raised his voice. When a boy made a mistake, Drona simply asked him to try again, and then again, until the mistake grew tired and went away by itself.
+
 One evening, as the sun turned the sky the colour of ripe mangoes, Drona climbed a little way up the tall tree. He placed a small wooden bird on a high branch, where the leaves were thick and the light was soft.
 
 "Tomorrow," he said gently, "we will see who can find the bird's eye."

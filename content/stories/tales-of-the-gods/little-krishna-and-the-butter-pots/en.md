@@ -53,6 +53,10 @@ No answer. Only, from somewhere behind the house, the sound of a small boy laugh
 
 This happened the next day. And the next. Yashoda hung the pot higher. The boys built a taller tower. Yashoda hid the pot behind the grain jars. Krishna found it before she had finished hiding it.
 
+She tied a little brass bell to the rope, so that it would ring if anyone touched the pot. The next morning the bell did not ring, and the butter was gone, and inside the bell, packed in tight, was a tiny ball of cotton.
+
+She asked her neighbour's grandmother to sit in the room and keep watch. The grandmother sat, and watched, and Krishna came and climbed into her lap and told her a story about a cow who could fly, and by the end of the story the grandmother was fast asleep with a smile on her face, and the butter, once again, was gone.
+
 And it was not only Yashoda's butter. Soon the whole village knew that little Krishna had a nose for butter the way a bee has a nose for flowers.
 
 One afternoon a line of neighbours came to Yashoda's door.
@@ -112,6 +116,8 @@ She went out into the yard, knelt down beside her son and the calf, and put her 
 "I will ask," said Krishna. And he did, too, most of the time, for at least a week.
 
 That evening the whole village gathered under the big banyan tree, the way they did when the work was done. Somebody had brought a drum. Somebody else had brought a flute. The neighbours who had complained that afternoon were laughing now, telling the story of the butter on Krishna's nose, and the story grew a little every time someone told it.
+
+The cows came home from the pasture in a slow brown river, bells clinking, and the thin little calf ran to meet its mother at last and pushed its head against her side. The grandmothers passed around a bowl of warm milk with jaggery in it. And Krishna, who should by rights have been in trouble, sat in the middle of everything with a lump of jaggery in each cheek, listening to the drum.
 
 Krishna fell asleep in his mother's lap before the last song was over. His curls were still a bit sticky. His peacock feather had slipped over one eye.
 

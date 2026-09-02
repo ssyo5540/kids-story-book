@@ -39,11 +39,19 @@ Midas gasped. He touched a table. Gold. He touched a curtain, and it stiffened i
 
 He ran through the palace like a boy, touching everything. Pillars. Doors. The stairs under his feet. By the time the sun was high, the whole palace glittered, and Midas was breathless and delighted and hungrier than he had ever been in his life.
 
+His servants followed him at a careful distance, not sure whether to be pleased or frightened. The cook came out of the kitchen to see what the noise was, and Midas shook her hand in his excitement, and her wooden spoon turned to gold in her fist. She looked at it for a long moment and then went quietly back inside and sat down.
+
+In the stables, the horses shied away from the golden hay. In the garden, the bees flew in puzzled circles around the golden roses, landing and leaving, landing and leaving, unable to find a single drop of honey.
+
 He sat down at the golden table for lunch.
 
 He picked up a piece of bread. It turned to gold in his fingers, heavy and hard and cold. He set it down and picked up a grape. Gold. He lifted a cup of water to his lips, and the water turned to liquid gold and then to solid gold, and he could not drink it.
 
 Midas stared at the golden bread. He was very, very hungry. And for the first time since the god had gone, a small worried feeling began to grow in his chest.
+
+He tried to be clever. He had a servant hold a fig above his mouth and drop it in, so that his hands never touched it. But the moment the fig brushed his lips, it turned to gold, cold and hard against his teeth, and he had to spit it out onto the golden plate, where it rang like a bell.
+
+The servants looked at the floor. Nobody said anything. The worried feeling grew.
 
 That was when Zoe came running in.
 
@@ -94,6 +102,8 @@ And then, with Zoe standing close beside him, he sprinkled a few drops of river 
 Smoke shivered. His fur turned grey. His tail twitched. He opened his eyes, gave an enormous yawn, and jumped out of Zoe's arms to go and chase a butterfly, exactly as if nothing had happened.
 
 Zoe laughed and laughed. Then she flung her arms around her father's neck, and Midas hugged her back with all his strength, and it was the best thing he had ever felt in his whole life.
+
+That night they ate bread, plain bread, warm from the oven, with honey from the bees who had found their roses again. Midas thought it was the finest meal ever served in a palace. Zoe fell asleep at the table with her cheek on her arm, and Smoke curled up on her feet, purring, warm and grey and alive.
 
 From that day on, Midas did not count his coins in the evening. He counted other things instead. Roses in the garden. Stars over the hill. The number of times his daughter laughed at dinner, which was usually a great many.
 

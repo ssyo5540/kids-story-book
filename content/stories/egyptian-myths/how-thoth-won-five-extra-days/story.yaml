@@ -1,0 +1,10 @@
+id: how-thoth-won-five-extra-days
+collection: egyptian-myths
+mythology: egyptian
+durationClass: 15
+ageRange: [5, 9]
+characters: [Thoth, Ra, Isis, Osiris]
+tags: [cleverness, moon, calendar, games]
+sourceNotes: "Plutarch, De Iside et Osiride: Thoth wins a seventy-second part of the moon's light at senet and adds five days to the year so that Nut's children can be born. Gentle telling."
+order: 2
+cover: { accent: "#c9a227", symbol: moon }
