@@ -1,0 +1,12 @@
+id: mahabharatam
+mythology: indian
+order: 1
+cover: { accent: "#f28c28", symbol: bow }
+title:
+  en: Mahabharatam
+  te: మహాభారతం
+  ta: மகாபாரதம்
+  kn: ಮಹಾಭಾರತ
+  ml: മഹാഭാരതം
+description:
+  en: Gentle tales of the five Pandava brothers, their teachers, their friends and the lessons they learned.

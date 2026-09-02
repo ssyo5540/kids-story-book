@@ -1,0 +1,17 @@
+# Per-locale pronunciation help applied to NARRATION text only (never to displayed text).
+#   respell: word-boundary substitutions, e.g. "Yudhishthira": "Yudhish-thira"
+#   ipa:     phrases sent as customPronunciations (English locales only; verify per locale)
+locales:
+  en-IN:
+    respell: {}
+    ipa: {}
+  en-US:
+    respell: {}
+    ipa: {}
+  en-GB:
+    respell: {}
+    ipa: {}
+  te-IN: { respell: {}, ipa: {} }
+  ta-IN: { respell: {}, ipa: {} }
+  kn-IN: { respell: {}, ipa: {} }
+  ml-IN: { respell: {}, ipa: {} }

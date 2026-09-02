@@ -1,0 +1,12 @@
+id: panchatantra
+mythology: indian
+order: 3
+cover: { accent: "#5cb88a", symbol: banyan }
+title:
+  en: Panchatantra
+  te: పంచతంత్రం
+  ta: பஞ்சதந்திரம்
+  kn: ಪಂಚತಂತ್ರ
+  ml: പഞ്ചതന്ത്രം
+description:
+  en: Clever animals, small mistakes and kind endings from the oldest fables in the world.

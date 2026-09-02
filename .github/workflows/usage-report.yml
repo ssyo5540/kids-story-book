@@ -1,0 +1,28 @@
+name: usage-report
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+jobs:
+  report:
+    if: vars.APP_URL != ''
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - run: |
+          curl -fsS -H "Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" "${{ vars.APP_URL }}/api/admin/usage" > usage.json
+          node -e '
+            const u = require("./usage.json");
+            const lines = [
+              `## Text-to-Speech usage ${u.month}`,
+              `- characters: ${u.charsUsed.toLocaleString()} / ${u.budget.toLocaleString()} (${u.pctUsed}%)`,
+              `- renditions stored: ${u.renditions.total}`,
+              `- writers: ${u.writers.map((w) => `${w.writerId} ${w.chars.toLocaleString()}`).join(", ")}`,
+            ].join("\n");
+            require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines + "\n");
+            require("fs").writeFileSync("body.md", lines + "\n");
+          '
+      - run: gh issue create -R "${{ github.repository }}" -t "Usage report $(date +%Y-%m)" -F body.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

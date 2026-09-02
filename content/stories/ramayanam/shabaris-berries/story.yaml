@@ -1,0 +1,10 @@
+id: shabaris-berries
+collection: ramayanam
+mythology: indian
+durationClass: 15
+ageRange: [4, 9]
+characters: [Shabari, Rama, Lakshmana]
+tags: [devotion, patience, kindness, forest]
+sourceNotes: "Aranya Kanda. Shabari waits many years in the forest to welcome Rama and offers him berries she has tasted to be sure they are sweet."
+order: 3
+cover: { accent: "#b5562f", symbol: berries }

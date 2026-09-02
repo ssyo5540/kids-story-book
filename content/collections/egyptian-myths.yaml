@@ -1,0 +1,12 @@
+id: egyptian-myths
+mythology: egyptian
+order: 6
+cover: { accent: "#c9a227", symbol: sunboat }
+title:
+  en: Egyptian Myths
+  te: ఈజిప్టు పురాణ కథలు
+  ta: எகிப்திய புராணக் கதைகள்
+  kn: ಈಜಿಪ್ಟ್ ಪುರಾಣ ಕಥೆಗಳು
+  ml: ഈജിപ്ഷ്യൻ പുരാണ കഥകൾ
+description:
+  en: The sun boat of Ra, clever Thoth and the kind guide Anubis, from the banks of the great river Nile.

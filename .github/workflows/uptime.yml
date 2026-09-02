@@ -1,0 +1,11 @@
+name: uptime
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    if: vars.APP_URL != ''
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS --max-time 20 "${{ vars.APP_URL }}/api/health"

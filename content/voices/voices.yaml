@@ -1,0 +1,97 @@
+# Eight Chirp 3 HD voices used in every locale (four female, four male).
+# Voice ids are <locale>-Chirp3-HD-<name>. Personas are the kid-facing names shown in the app.
+chirpVoices:
+  - { name: Aoede, gender: female }
+  - { name: Kore, gender: female }
+  - { name: Leda, gender: female }
+  - { name: Zephyr, gender: female }
+  - { name: Charon, gender: male }
+  - { name: Puck, gender: male }
+  - { name: Orus, gender: male }
+  - { name: Iapetus, gender: male }
+
+previewText:
+  en: "Hello, little one. I am going to read you a story tonight. Snuggle in, close your eyes, and listen closely. Once upon a time, in a land far away, the stars were just beginning to twinkle."
+  te: "హలో చిన్నారి. ఈ రాత్రి నేను నీకు ఒక కథ చెబుతాను. దుప్పటి కప్పుకో, కళ్ళు మూసుకో, జాగ్రత్తగా విను. అనగనగా, చాలా దూరంగా ఉన్న ఒక దేశంలో, నక్షత్రాలు మెల్లగా మెరవడం మొదలుపెట్టాయి."
+  ta: "வணக்கம் குட்டி. இன்று இரவு நான் உனக்கு ஒரு கதை சொல்லப் போகிறேன். போர்வையைப் போர்த்திக்கொள், கண்களை மூடு, கவனமாகக் கேள். ஒரு காலத்தில், வெகு தொலைவில் உள்ள ஒரு நாட்டில், நட்சத்திரங்கள் மெதுவாக மின்னத் தொடங்கின."
+  kn: "ನಮಸ್ಕಾರ ಪುಟ್ಟ. ಇಂದು ರಾತ್ರಿ ನಾನು ನಿನಗೆ ಒಂದು ಕಥೆ ಹೇಳುತ್ತೇನೆ. ಹೊದಿಕೆ ಹೊದ್ದುಕೋ, ಕಣ್ಣು ಮುಚ್ಚು, ಗಮನವಿಟ್ಟು ಕೇಳು. ಒಂದಾನೊಂದು ಕಾಲದಲ್ಲಿ, ಬಹಳ ದೂರದ ಒಂದು ದೇಶದಲ್ಲಿ, ನಕ್ಷತ್ರಗಳು ನಿಧಾನವಾಗಿ ಮಿನುಗಲು ಆರಂಭಿಸಿದವು."
+  ml: "ഹലോ കുഞ്ഞേ. ഇന്ന് രാത്രി ഞാൻ നിനക്കൊരു കഥ പറയാം. പുതപ്പ് പുതച്ച്, കണ്ണടച്ച്, ശ്രദ്ധിച്ചു കേൾക്കൂ. പണ്ടു പണ്ട്, വളരെ ദൂരെയുള്ള ഒരു നാട്ടിൽ, നക്ഷത്രങ്ങൾ പതിയെ മിന്നാൻ തുടങ്ങി."
+
+locales:
+  en-IN:
+    default: Aoede
+    personas:
+      Aoede:   { displayName: Meera,  blurb: gentle and warm,            avatar: meera }
+      Kore:    { displayName: Tara,   blurb: bright and kind,            avatar: tara }
+      Leda:    { displayName: Anu,    blurb: soft as a lullaby,          avatar: anu }
+      Zephyr:  { displayName: Nila,   blurb: calm like the night sky,    avatar: nila }
+      Charon:  { displayName: Arjun,  blurb: steady and friendly,        avatar: arjun }
+      Puck:    { displayName: Dev,    blurb: playful and cheerful,       avatar: dev }
+      Orus:    { displayName: Kabir,  blurb: deep and comforting,        avatar: kabir }
+      Iapetus: { displayName: Ravi,   blurb: like a favourite uncle,     avatar: ravi }
+  en-US:
+    default: Leda
+    personas:
+      Aoede:   { displayName: Hazel,      blurb: gentle and warm,          avatar: hazel }
+      Kore:    { displayName: Luna,       blurb: bright and kind,          avatar: luna }
+      Leda:    { displayName: Willow,     blurb: soft as a lullaby,        avatar: willow }
+      Zephyr:  { displayName: Rosie,      blurb: calm like the night sky,  avatar: rosie }
+      Charon:  { displayName: Oliver,     blurb: steady and friendly,      avatar: oliver }
+      Puck:    { displayName: Max,        blurb: playful and cheerful,     avatar: max }
+      Orus:    { displayName: Theo,       blurb: deep and comforting,      avatar: theo }
+      Iapetus: { displayName: Grandpa Joe, blurb: slow and cosy,           avatar: grandpa }
+  en-GB:
+    default: Aoede
+    personas:
+      Aoede:   { displayName: Poppy,      blurb: gentle and warm,          avatar: poppy }
+      Kore:    { displayName: Matilda,    blurb: bright and kind,          avatar: matilda }
+      Leda:    { displayName: Ivy,        blurb: soft as a lullaby,        avatar: ivy }
+      Zephyr:  { displayName: Nana Bea,   blurb: calm like the night sky,  avatar: nana }
+      Charon:  { displayName: Alfie,      blurb: steady and friendly,      avatar: alfie }
+      Puck:    { displayName: Henry,      blurb: playful and cheerful,     avatar: henry }
+      Orus:    { displayName: Arthur,     blurb: deep and comforting,      avatar: arthur }
+      Iapetus: { displayName: Grandad Wilf, blurb: slow and cosy,          avatar: grandpa }
+  te-IN:
+    default: Aoede
+    personas:
+      Aoede:   { displayName: మీరా,     displayNameLatin: Meera,     blurb: gentle and warm,          avatar: meera }
+      Kore:    { displayName: తార,      displayNameLatin: Tara,      blurb: bright and kind,          avatar: tara }
+      Leda:    { displayName: అను,      displayNameLatin: Anu,       blurb: soft as a lullaby,        avatar: anu }
+      Zephyr:  { displayName: అమ్మమ్మ,   displayNameLatin: Ammamma,   blurb: grandmother's voice,      avatar: grandma }
+      Charon:  { displayName: అర్జున్,   displayNameLatin: Arjun,     blurb: steady and friendly,      avatar: arjun }
+      Puck:    { displayName: దేవ్,      displayNameLatin: Dev,       blurb: playful and cheerful,     avatar: dev }
+      Orus:    { displayName: రవి,      displayNameLatin: Ravi,      blurb: deep and comforting,      avatar: ravi }
+      Iapetus: { displayName: తాతయ్య,    displayNameLatin: Thathayya, blurb: grandfather's voice,      avatar: grandpa }
+  ta-IN:
+    default: Aoede
+    personas:
+      Aoede:   { displayName: மீரா,     displayNameLatin: Meera,   blurb: gentle and warm,          avatar: meera }
+      Kore:    { displayName: தாரா,     displayNameLatin: Tara,    blurb: bright and kind,          avatar: tara }
+      Leda:    { displayName: அனு,      displayNameLatin: Anu,     blurb: soft as a lullaby,        avatar: anu }
+      Zephyr:  { displayName: பாட்டி,    displayNameLatin: Paatti,  blurb: grandmother's voice,      avatar: grandma }
+      Charon:  { displayName: அர்ஜுன்,   displayNameLatin: Arjun,   blurb: steady and friendly,      avatar: arjun }
+      Puck:    { displayName: தேவ்,      displayNameLatin: Dev,     blurb: playful and cheerful,     avatar: dev }
+      Orus:    { displayName: ரவி,      displayNameLatin: Ravi,    blurb: deep and comforting,      avatar: ravi }
+      Iapetus: { displayName: தாத்தா,    displayNameLatin: Thatha,  blurb: grandfather's voice,      avatar: grandpa }
+  kn-IN:
+    default: Aoede
+    personas:
+      Aoede:   { displayName: ಮೀರಾ,     displayNameLatin: Meera,  blurb: gentle and warm,          avatar: meera }
+      Kore:    { displayName: ತಾರಾ,     displayNameLatin: Tara,   blurb: bright and kind,          avatar: tara }
+      Leda:    { displayName: ಅನು,      displayNameLatin: Anu,    blurb: soft as a lullaby,        avatar: anu }
+      Zephyr:  { displayName: ಅಜ್ಜಿ,     displayNameLatin: Ajji,   blurb: grandmother's voice,      avatar: grandma }
+      Charon:  { displayName: ಅರ್ಜುನ್,   displayNameLatin: Arjun,  blurb: steady and friendly,      avatar: arjun }
+      Puck:    { displayName: ದೇವ್,      displayNameLatin: Dev,    blurb: playful and cheerful,     avatar: dev }
+      Orus:    { displayName: ರವಿ,      displayNameLatin: Ravi,   blurb: deep and comforting,      avatar: ravi }
+      Iapetus: { displayName: ಅಜ್ಜ,      displayNameLatin: Ajja,   blurb: grandfather's voice,      avatar: grandpa }
+  ml-IN:
+    default: Aoede
+    personas:
+      Aoede:   { displayName: മീര,      displayNameLatin: Meera,     blurb: gentle and warm,        avatar: meera }
+      Kore:    { displayName: താര,      displayNameLatin: Tara,      blurb: bright and kind,        avatar: tara }
+      Leda:    { displayName: അനു,      displayNameLatin: Anu,       blurb: soft as a lullaby,      avatar: anu }
+      Zephyr:  { displayName: അമ്മൂമ്മ,   displayNameLatin: Ammoomma,  blurb: grandmother's voice,    avatar: grandma }
+      Charon:  { displayName: അർജുൻ,    displayNameLatin: Arjun,     blurb: steady and friendly,    avatar: arjun }
+      Puck:    { displayName: ദേവ്,      displayNameLatin: Dev,       blurb: playful and cheerful,   avatar: dev }
+      Orus:    { displayName: രവി,      displayNameLatin: Ravi,      blurb: deep and comforting,    avatar: ravi }
+      Iapetus: { displayName: അപ്പൂപ്പൻ,  displayNameLatin: Appooppan, blurb: grandfather's voice,    avatar: grandpa }

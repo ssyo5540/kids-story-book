@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+/* ---------- Palette (raw tokens) ---------- */
+@theme {
+  --color-night-950: #070b22;
+  --color-night-900: #0b1030;
+  --color-night-800: #141a4a;
+  --color-night-700: #1f2766;
+  --color-night-600: #2c3585;
+  --color-night-500: #3d47a6;
+
+  --color-star: #fff4c2;
+  --color-moon: #f9e79f;
+
+  --color-lamp-500: #e9a520;
+  --color-lamp-400: #f6b73c;
+  --color-lamp-300: #ffd27a;
+  --color-lamp-200: #ffe7b3;
+
+  --color-paper-50: #fff8e7;
+  --color-paper-100: #f7ecd2;
+  --color-paper-200: #eadbb8;
+  --color-paper-300: #d9c69a;
+
+  --color-ink-900: #2a1f14;
+  --color-ink-700: #4a3a2a;
+  --color-ink-500: #7a6552;
+
+  --color-berry-500: #d95d7a;
+  --color-leaf-500: #5cb88a;
+  --color-sky-400: #7fb3ff;
+
+  --color-myth-indian: #f28c28;
+  --color-myth-greek: #3aa7c9;
+  --color-myth-egyptian: #c9a227;
+
+  --radius-card: 1.25rem;
+  --radius-pill: 9999px;
+  --radius-sheet: 1.75rem;
+
+  --shadow-cover: 0 14px 30px -12px rgb(0 0 0 / 0.65), inset 6px 0 8px -6px rgb(0 0 0 / 0.55);
+  --shadow-lift: 0 10px 24px -12px rgb(0 0 0 / 0.5);
+  --shadow-glow: 0 0 0 4px rgb(246 183 60 / 0.35);
+
+  --font-display:
+    var(--font-baloo), var(--font-baloo-te), var(--font-baloo-ta), var(--font-baloo-kn), var(--font-baloo-ml),
+    ui-rounded, system-ui, sans-serif;
+  --font-body:
+    var(--font-nunito), var(--font-noto-te), var(--font-noto-ta), var(--font-noto-kn), var(--font-noto-ml), system-ui,
+    sans-serif;
+
+  --spacing-tap: 3rem;
+  --spacing-tabbar: 4.25rem;
+  --spacing-miniplayer: 4.5rem;
+}
+
+/* ---------- Semantic tokens (swap for night-dim mode) ---------- */
+:root {
+  --bg: var(--color-night-900);
+  --bg-deep: var(--color-night-950);
+  --surface: var(--color-paper-50);
+  --surface-2: var(--color-paper-100);
+  --surface-3: var(--color-paper-200);
+  --text: var(--color-paper-50);
+  --text-muted: #b9bfe6;
+  --on-surface: var(--color-ink-900);
+  --on-surface-muted: var(--color-ink-700);
+  --accent: var(--color-lamp-400);
+  --accent-soft: var(--color-lamp-200);
+  --accent-ink: var(--color-night-950);
+  --line: rgb(255 255 255 / 0.12);
+  --twinkle-play-state: running;
+  --dock-h: 0px;
+  color-scheme: dark;
+}
+
+html[data-dim="true"] {
+  --bg: #05081a;
+  --bg-deep: #03051a;
+  --surface: #e8dfc7;
+  --surface-2: #d9ccae;
+  --surface-3: #c9ba98;
+  --text: #d8d3c0;
+  --text-muted: #8f95bf;
+  --accent: #d69a2e;
+  --accent-soft: #e6cf96;
+  --line: rgb(255 255 255 / 0.08);
+  --twinkle-play-state: paused;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-deep: var(--bg-deep);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-fg: var(--text);
+  --color-fg-muted: var(--text-muted);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-muted: var(--on-surface-muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-line: var(--line);
+}
+
+/* ---------- Base ---------- */
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.005em;
+}
+
+/* Indic scripts have taller glyphs */
+:lang(te),
+:lang(ta),
+:lang(kn),
+:lang(ml) {
+  line-height: 1.45;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-lamp-300);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+::selection {
+  background: var(--color-lamp-300);
+  color: var(--color-night-950);
+}
+
+/* ---------- Starfield (CSS only) ---------- */
+.starfield {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 120%, var(--color-night-700) 0%, transparent 60%),
+    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 45%, var(--bg) 100%);
+  overflow: hidden;
+}
+.starfield::before,
+.starfield::after,
+.starfield > i {
+  content: "";
+  position: absolute;
+  inset: -10%;
+  background-repeat: repeat;
+  animation: twinkle 7s ease-in-out infinite;
+  animation-play-state: var(--twinkle-play-state);
+}
+.starfield::before {
+  background-image:
+    radial-gradient(1.2px 1.2px at 12% 18%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1.4px 1.4px at 45% 38%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1px 1px at 78% 12%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1.3px 1.3px at 88% 62%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1px 1px at 28% 72%, var(--color-star) 60%, transparent 62%);
+  background-size: 620px 520px;
+  opacity: 0.85;
+}
+.starfield::after {
+  background-image:
+    radial-gradient(1.6px 1.6px at 62% 24%, var(--color-moon) 60%, transparent 62%),
+    radial-gradient(1px 1px at 22% 44%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1.2px 1.2px at 70% 80%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(0.9px 0.9px at 8% 88%, var(--color-star) 60%, transparent 62%);
+  background-size: 880px 760px;
+  animation-duration: 11s;
+  animation-delay: -3s;
+  opacity: 0.7;
+}
+.starfield > i {
+  display: block;
+  background-image:
+    radial-gradient(1px 1px at 33% 10%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1.1px 1.1px at 55% 66%, var(--color-star) 60%, transparent 62%),
+    radial-gradient(1px 1px at 92% 36%, var(--color-star) 60%, transparent 62%);
+  background-size: 1100px 900px;
+  animation-duration: 13s;
+  animation-delay: -6s;
+  opacity: 0.55;
+}
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .starfield::before,
+  .starfield::after,
+  .starfield > i {
+    animation: none;
+  }
+}
+
+/* ---------- Paper surfaces ---------- */
+.paper {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---------- Scrollbars & snapping shelves ---------- */
+.shelf {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.shelf::-webkit-scrollbar {
+  display: none;
+}
+.shelf > * {
+  scroll-snap-align: start;
+}
+
+/* ---------- Utilities ---------- */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.text-balance {
+  text-wrap: balance;
+}

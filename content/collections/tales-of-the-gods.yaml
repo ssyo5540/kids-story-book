@@ -1,0 +1,12 @@
+id: tales-of-the-gods
+mythology: indian
+order: 4
+cover: { accent: "#d95d7a", symbol: lotus }
+title:
+  en: Tales of the Gods
+  te: దేవతల కథలు
+  ta: தெய்வங்களின் கதைகள்
+  kn: ದೇವರ ಕಥೆಗಳು
+  ml: ദേവന്മാരുടെ കഥകൾ
+description:
+  en: Stories of Ganesha, little Krishna, Dhruva and the wonders that rose from the ocean, from the Puranas.

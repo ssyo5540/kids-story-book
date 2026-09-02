@@ -1,0 +1,10 @@
+id: arjuna-and-the-birds-eye
+collection: mahabharatam
+mythology: indian
+durationClass: 5
+ageRange: [4, 8]
+characters: [Arjuna, Drona, Yudhishthira, Bhima]
+tags: [focus, practice, archery, teacher]
+sourceNotes: "Adi Parva. Drona tests his students with a wooden bird placed high in a tree."
+order: 1
+cover: { accent: "#f28c28", symbol: bow }

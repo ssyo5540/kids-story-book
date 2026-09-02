@@ -1,0 +1,16 @@
+[
+  {
+    "origin": ["https://YOUR-APP-DOMAIN", "http://localhost:3000", "http://localhost:3100"],
+    "method": ["GET", "HEAD"],
+    "responseHeader": [
+      "Content-Type",
+      "Content-Length",
+      "Content-Range",
+      "Accept-Ranges",
+      "ETag",
+      "Cache-Control",
+      "Range"
+    ],
+    "maxAgeSeconds": 3600
+  }
+]

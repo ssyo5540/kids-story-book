@@ -1,0 +1,12 @@
+id: greek-myths
+mythology: greek
+order: 5
+cover: { accent: "#3aa7c9", symbol: olive }
+title:
+  en: Greek Myths
+  te: గ్రీకు పురాణ కథలు
+  ta: கிரேக்க புராணக் கதைகள்
+  kn: ಗ್ರೀಕ್ ಪುರಾಣ ಕಥೆಗಳು
+  ml: ഗ്രീക്ക് പുരാണ കഥകൾ
+description:
+  en: Gods on a mountain, heroes on the sea and the seasons themselves, retold gently for sleepy listeners.

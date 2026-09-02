@@ -1,0 +1,12 @@
+id: ramayanam
+mythology: indian
+order: 2
+cover: { accent: "#e9a520", symbol: bridge }
+title:
+  en: Ramayanam
+  te: రామాయణం
+  ta: ராமாயணம்
+  kn: ರಾಮಾಯಣ
+  ml: രാമായണം
+description:
+  en: The journey of Rama, Sita, Lakshmana and the brave, kind Hanuman, told softly for bedtime.
