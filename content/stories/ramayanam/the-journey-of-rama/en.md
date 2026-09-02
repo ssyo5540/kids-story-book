@@ -367,6 +367,8 @@ Rama ruled for a very long time, and it was a good time. People say the rivers r
 
 Hanuman never went home to the mountain. He stayed in Ayodhya, in the palace, close to Rama, for the rest of his very long life, and when he was old he liked to sit in the garden and tell the children the story of the leap across the sea, and they never got tired of it, and neither did he.
 
+He had a room in the palace, with a window that faced south toward the sea, but most nights he slept in the garden anyway, because he liked the stars better than a ceiling.
+
 And every year, on the darkest night, the people of Ayodhya lit their lamps again to remember. And their children did the same, and their children's children, all the way down to now.
 
 So if you ever see a row of little lamps in a window on a dark night, you will know what they mean. They mean somebody who was far away has come home. They mean the long journey is over.

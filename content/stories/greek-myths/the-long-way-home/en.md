@@ -373,6 +373,8 @@ And Odysseus?
 
 Odysseus grew old in the house he had built around a tree. He walked down to the harbour most mornings, out of habit, and looked at the sea. But he did not look east any more. He was already east. He was already home.
 
+He planted more pear trees in his father's orchard, one for each grandchild, and he was always a little vague about which was whose, so that the children argued about it happily for years. He mended nets on the quay with the fishermen and told them where the best water was, and they pretended not to know already. He did not go to sea. He had been.
+
 Sometimes, in the evenings, his grandchildren climbed into his lap and asked for the story of the giant with one eye, and he told it, and they asked for the pigs, and he told that too. And when they asked, "Was it worth it, Grandfather? All those years?" he would look at Penelope across the room, and at Telemachus in the doorway, and at the firelight on the walls of his own house, and he would say, "Every wave of it."
 
 Then he would carry them up to bed.
