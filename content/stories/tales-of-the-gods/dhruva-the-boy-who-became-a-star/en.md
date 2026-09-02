@@ -49,6 +49,8 @@ Suniti watched him go with her hand over her heart. She wanted to run after him.
 
 The forest was very big and Dhruva was very small. He walked until his legs ached. He walked until the sun went down and the trees turned to shadows. He was not exactly afraid, but he was not exactly not afraid either, and he held his own hand for company.
 
+A monkey watched him from a branch and, seeing that he was only a small boy and not a hunter, dropped a ripe fig at his feet. Dhruva said thank you, because his mother had taught him to, and ate it as he walked. A stream crossed his path, and he drank from it, and the water was so cold it made his teeth ache, and he laughed for the first time since the throne room.
+
 At last he came to a clearing, and in the clearing sat an old man with a long white beard and a small stringed instrument on his knee. It was Narada, the wandering sage, who travelled between heaven and earth and knew nearly everything.
 
 "Little one," said Narada, "where are you going?"

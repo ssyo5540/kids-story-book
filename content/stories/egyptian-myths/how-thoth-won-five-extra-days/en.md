@@ -33,6 +33,10 @@ Thoth tipped his long head to one side.
 
 "Not yet," he said.
 
+He went home to his house of scrolls, where every day of the year was written down in a long neat column, and he read the column from top to bottom three times. Three hundred and sixty days. Not one missing. Not one spare. Ra had been thorough, as Ra always was.
+
+"A year is a year," Thoth said to himself. "You cannot add to it. Unless..." And he sat down at his table and stared at nothing for a very long time, which is what thinking looks like from the outside.
+
 He thought about it all afternoon. He thought about it into the evening, while the stars came out on Nut's shoulders. And when the moon rose, round and white and rather pleased with itself, Thoth suddenly smiled.
 
 The moon in those days was a god called Khonsu, and Khonsu had two great loves. He loved his own light, which he was very proud of, and he loved playing games. Most of all he loved senet, a board game of little squares and little pieces, which the gods played on long quiet nights.
@@ -53,6 +57,8 @@ Thoth pretended to think. "Oh," he said, "something small. If you win, I will wr
 
 They set up the board. Thoth moved his pieces slowly and carefully. Khonsu moved his quickly and grandly. And Thoth won.
 
+Senet is a game of thirty squares and little carved pieces, and you throw sticks to see how far you may move. Khonsu threw the sticks high and caught them with a flourish. Thoth threw them low and studied where they fell. Khonsu rushed his pieces toward the end of the board. Thoth waited, and blocked, and waited again, and when Khonsu was sure he had won, Thoth slipped one last piece past him and off the board, and that was that.
+
 "Best of three," said Khonsu.
 
 Thoth won again.
@@ -64,6 +70,12 @@ Thoth won that one too.
 They played all night long, game after game, while the stars wheeled overhead. Sometimes Khonsu won, and crowed about it, and Thoth congratulated him warmly. But mostly Thoth won, quietly and politely, one small sliver of moonlight at a time.
 
 By the time the sky began to turn grey, Thoth had a whole jar of moonlight sitting beside him, glowing softly, and the moon looked just a little thinner than it had the night before.
+
+Down below, Nut had not slept. She had lain all night along the top of the world with her stars burning, listening to the faint click of senet pieces far above her, and beside her Geb had held very still so as not to shake the board.
+
+"Is it working?" he whispered.
+
+"I do not know," she whispered back. "But the moon is getting thinner. That must mean something."
 
 "That is enough for tonight, I think," said Thoth, tucking the board under his wing. "Thank you, Khonsu. You play very well."
 

@@ -1,0 +1,10 @@
+id: anubis-the-kind-guide
+collection: egyptian-myths
+mythology: egyptian
+durationClass: 15
+ageRange: [5, 9]
+characters: [Anubis]
+tags: [kindness, journey, night, guide]
+sourceNotes: "Egyptian funerary tradition: Anubis guides travellers to the Hall of Two Truths where the heart is weighed against Ma'at's feather; the Field of Reeds. Told gently: the traveller has finished a long, happy life; no fear."
+order: 3
+cover: { accent: "#3d47a6", symbol: feather }

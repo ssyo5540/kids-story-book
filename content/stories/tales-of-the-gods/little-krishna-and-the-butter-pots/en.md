@@ -9,7 +9,7 @@ In a village called Gokul, on the banks of a wide slow river, there were more co
 
 In the middle of this village lived a little boy named Krishna. He had dark curly hair, a peacock feather tucked behind one ear, and a smile that made even the grumpiest grandmother forget what she had been grumbling about.
 
-Krishna's mother was called Yashoda. She loved him more than the moon loves the night sky. And she spent a great deal of her time looking for him, because Krishna was never where he had been a moment ago.
+Krishna's mother was called Yashoda. She loved him more than the moon loves the night sky, which is a very great deal. And she spent a great deal of her time looking for him, because Krishna was never where he had been a moment ago.
 
 Now, of all the good things in Gokul, the very best was butter.
 

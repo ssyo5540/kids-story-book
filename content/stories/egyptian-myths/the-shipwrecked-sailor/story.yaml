@@ -1,0 +1,10 @@
+id: the-shipwrecked-sailor
+collection: egyptian-myths
+mythology: egyptian
+durationClass: 15
+ageRange: [5, 9]
+characters: []
+tags: [sea, courage, kindness, island]
+sourceNotes: "Middle Kingdom 'Tale of the Shipwrecked Sailor' (Papyrus Leningrad 1115): a sailor wrecked on a magical island meets a giant golden serpent who tells his own story and foretells rescue. Softened: the serpent's family 'went away into the sky'."
+order: 4
+cover: { accent: "#c9a227", symbol: wave }
