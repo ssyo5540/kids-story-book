@@ -1,0 +1,10 @@
+id: little-krishna-and-the-butter-pots
+collection: tales-of-the-gods
+mythology: indian
+durationClass: 15
+ageRange: [3, 8]
+characters: [Krishna]
+tags: [mischief, mother, village, butter]
+sourceNotes: "Bhagavata Purana, Krishna's childhood in Gokul: the butter thief, Yashoda and the neighbours, sharing with the monkeys and calves. Gentle telling."
+order: 3
+cover: { accent: "#7fb3ff", symbol: pot }

@@ -1,0 +1,10 @@
+id: persephone-and-the-seasons
+collection: greek-myths
+mythology: greek
+durationClass: 15
+ageRange: [5, 9]
+characters: [Persephone, Zeus, Hermes]
+tags: [seasons, mother, spring, underworld]
+sourceNotes: "Homeric Hymn to Demeter. Persephone, Demeter and Hades; the pomegranate seeds; the origin of the seasons. Softened: Hades is lonely rather than frightening; Persephone chooses to return each year."
+order: 3
+cover: { accent: "#5cb88a", symbol: lotus }

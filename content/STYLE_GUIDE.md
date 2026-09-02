@@ -38,10 +38,10 @@ Write for the ear, not the eye.
 ## 6. Structure by duration (validator warns outside ±15% of the target word count)
 | Duration | Target words | Shape |
 |---|---|---|
-| 5 min | ~650 | 8–10 paragraphs: settle-in (1) → scene (2) → one small problem (3) → gentle resolution (2) → sleepy close (1–2) |
-| 15 min | ~2,000 | ~25 paragraphs, three beats, each ending in a small calm moment; no headings |
-| 30 min | ~4,000 | 3–4 `##` chapters of ~1,000 words, each ending in a settling moment |
-| 60 min | ~7,800 | 6–7 `##` chapters of 1,100–1,300 words, progressively slower and quieter, refrain at chapter ends |
+| 5 min | ~700 | 8–10 paragraphs: settle-in (1) → scene (2) → one small problem (3) → gentle resolution (2) → sleepy close (1–2) |
+| 15 min | ~1,800 | 25–35 paragraphs, three beats, each ending in a small calm moment; no headings |
+| 30 min | ~3,600 | 3–4 `##` chapters of ~900–1,200 words, each ending in a settling moment |
+| 60 min | ~7,200 | 6–7 `##` chapters of 1,000–1,200 words, progressively slower and quieter, refrain at chapter ends |
 
 ## 7. Frontmatter
 ```yaml

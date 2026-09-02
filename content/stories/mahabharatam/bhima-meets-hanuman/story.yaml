@@ -1,0 +1,10 @@
+id: bhima-meets-hanuman
+collection: mahabharatam
+mythology: indian
+durationClass: 15
+ageRange: [5, 9]
+characters: [Bhima, Hanuman, Draupadi]
+tags: [humility, strength, brothers, forest]
+sourceNotes: "Vana Parva. Bhima, searching for golden lotuses for Draupadi, meets an old monkey whose tail he cannot lift; it is Hanuman, his brother by the wind god. Gentle telling."
+order: 3
+cover: { accent: "#f28c28", symbol: lotus }

@@ -161,12 +161,8 @@ export const REGIONS: RegionInfo[] = [
 /** Default narration locale for first play. */
 export const DEFAULT_LOCALE: Locale = "en-IN";
 
-export const TARGET_WORDS: Record<DurationClass, number> = {
-  5: 650,
-  15: 2000,
-  30: 4000,
-  60: 7800,
-};
+/** Effective narration speed is ~120 words/minute (Chirp at 0.9x plus paragraph pauses). Recalibrate with `audio:status --calibrate`. */
+export const TARGET_WORDS: Record<DurationClass, number> = { 5: 700, 15: 1800, 30: 3600, 60: 7200 };
 
 export const REVIEW_STATUSES = ["draft", "needs_review", "approved"] as const;
 export type ReviewStatus = (typeof REVIEW_STATUSES)[number];

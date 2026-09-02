@@ -1,0 +1,10 @@
+id: baby-hermes
+collection: greek-myths
+mythology: greek
+durationClass: 5
+ageRange: [3, 7]
+characters: [Hermes, Zeus]
+tags: [music, mischief, brothers, hermes]
+sourceNotes: "Homeric Hymn to Hermes. Newborn Hermes invents the lyre from a tortoise shell, borrows Apollo's cattle, and makes peace with music. Softened: the cattle are returned; Apollo is charmed, not angry."
+order: 2
+cover: { accent: "#3aa7c9", symbol: lyre }

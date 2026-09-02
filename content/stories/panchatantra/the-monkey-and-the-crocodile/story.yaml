@@ -1,0 +1,10 @@
+id: the-monkey-and-the-crocodile
+collection: panchatantra
+mythology: indian
+durationClass: 15
+ageRange: [4, 8]
+characters: []
+tags: [friendship, cleverness, monkey, river]
+sourceNotes: "Panchatantra, Labdhapranasa. The monkey and the crocodile; the crocodile's wife wants to eat the monkey; the monkey escapes by claiming to have left his heart in the tree. Softened: no violence, forgiveness at the end."
+order: 4
+cover: { accent: "#5cb88a", symbol: banyan }

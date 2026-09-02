@@ -1,0 +1,10 @@
+id: hanumans-leap-to-lanka
+collection: ramayanam
+mythology: indian
+durationClass: 15
+ageRange: [5, 9]
+characters: [Hanuman, Rama, Sita]
+tags: [courage, hanuman, sea, hope]
+sourceNotes: "Sundara Kanda. Hanuman leaps across the sea, meets Mainaka, Surasa and the shadow-catcher, finds Sita in the Ashoka grove and gives her Rama's ring. Gentle telling; the burning of Lanka is left out."
+order: 4
+cover: { accent: "#3d47a6", symbol: wave }

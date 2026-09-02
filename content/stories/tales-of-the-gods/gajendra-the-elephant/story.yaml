@@ -1,0 +1,10 @@
+id: gajendra-the-elephant
+collection: tales-of-the-gods
+mythology: indian
+durationClass: 5
+ageRange: [3, 7]
+characters: []
+tags: [asking-for-help, elephant, lake, trust]
+sourceNotes: "Bhagavata Purana, Gajendra Moksha. The elephant king caught by a crocodile in the lake calls out to Vishnu, who comes and frees him. Softened: the crocodile simply holds on and lets go; no one is hurt."
+order: 2
+cover: { accent: "#7fb3ff", symbol: elephant }

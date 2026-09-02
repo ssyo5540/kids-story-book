@@ -1,0 +1,10 @@
+id: the-yakshas-riddles
+collection: mahabharatam
+mythology: indian
+durationClass: 15
+ageRange: [5, 9]
+characters: [Yudhishthira, Bhima, Arjuna]
+tags: [wisdom, fairness, riddles, lake]
+sourceNotes: "Vana Parva, Yaksha Prashna. The brothers drink from an enchanted lake and fall asleep; Yudhishthira answers the Yaksha's riddles and asks for Nakula to be woken first. The Yaksha is Dharma in disguise. Riddles simplified for children."
+order: 4
+cover: { accent: "#3aa7c9", symbol: wave }

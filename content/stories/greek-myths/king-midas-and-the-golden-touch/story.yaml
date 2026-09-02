@@ -1,0 +1,10 @@
+id: king-midas-and-the-golden-touch
+collection: greek-myths
+mythology: greek
+durationClass: 15
+ageRange: [5, 9]
+characters: [Midas]
+tags: [greed, gratitude, gold, river]
+sourceNotes: "Ovid, Metamorphoses XI, with the daughter from Hawthorne's retelling replaced by her kitten. Midas is kind to a lost old man, is granted the golden touch, regrets it, and is washed clean in the river Pactolus."
+order: 4
+cover: { accent: "#e9a520", symbol: star }

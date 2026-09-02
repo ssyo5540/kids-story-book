@@ -63,7 +63,7 @@ export function VoiceCard({
         <span
           className={cn(
             "rounded-pill px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide",
-            voice.gender === "female" ? "bg-berry-500/20 text-berry-500" : "bg-sky-400/20 text-sky-400",
+            voice.gender === "female" ? "bg-berry-500/20 text-berry-300" : "bg-sky-400/20 text-sky-300",
           )}
         >
           {voice.gender}

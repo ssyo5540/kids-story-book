@@ -1,0 +1,10 @@
+id: ganesha-and-the-race
+collection: tales-of-the-gods
+mythology: indian
+durationClass: 5
+ageRange: [3, 7]
+characters: [Ganesha]
+tags: [wisdom, family, ganesha, race]
+sourceNotes: "Puranic tale: Shiva and Parvati offer a mango to whichever son circles the world first; Kartikeya flies off on his peacock; Ganesha walks around his parents. Gentle telling with both brothers content at the end."
+order: 1
+cover: { accent: "#d95d7a", symbol: mango }

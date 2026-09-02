@@ -1,0 +1,10 @@
+id: baucis-and-philemon
+collection: greek-myths
+mythology: greek
+durationClass: 5
+ageRange: [4, 8]
+characters: [Zeus, Hermes]
+tags: [kindness, strangers, home, gods]
+sourceNotes: "Ovid, Metamorphoses VIII. Zeus and Hermes in disguise are welcomed only by a poor old couple; their cottage becomes a temple and the two become intertwined trees. Softened: the neighbours are simply asleep or busy; no flood."
+order: 1
+cover: { accent: "#e9a520", symbol: lamp }

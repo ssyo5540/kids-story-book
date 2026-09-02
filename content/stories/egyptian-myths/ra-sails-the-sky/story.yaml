@@ -1,0 +1,10 @@
+id: ra-sails-the-sky
+collection: egyptian-myths
+mythology: egyptian
+durationClass: 5
+ageRange: [3, 7]
+characters: [Ra]
+tags: [sun, night, journey, egypt]
+sourceNotes: "Egyptian solar myth: Ra crosses the sky in the day boat and passes through the underworld in the night boat, defended from Apep. Softened: Apep is a sleepy serpent who is gently sung past; no battle."
+order: 1
+cover: { accent: "#c9a227", symbol: sunboat }

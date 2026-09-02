@@ -1,0 +1,10 @@
+id: the-four-friends
+collection: panchatantra
+mythology: indian
+durationClass: 15
+ageRange: [4, 8]
+characters: []
+tags: [friendship, teamwork, forest, animals]
+sourceNotes: "Panchatantra, Mitra-samprapti. The crow, the mouse, the tortoise and the deer free one another from the hunter's nets. Softened: the hunter simply gives up and goes home."
+order: 5
+cover: { accent: "#5cb88a", symbol: tortoise }
