@@ -31,6 +31,8 @@ And Odysseus, being human, made several.
 
 The first few days were easy. Blue water, fair wind, dolphins racing the ships. The men sang. Odysseus stood at the prow and thought about goats and olive trees and a small hand grabbing his beard.
 
+The other kings' ships had scattered, each toward its own home, and the twelve ships of Ithaca sailed on alone in a long line, the way geese fly, with Odysseus's ship at the front. In the evenings they pulled up on whatever beach they could find and cooked fish over driftwood fires and told the same stories they had been telling for ten years, and laughed at them anyway, because they were going home and everything was funnier.
+
 Then, on the fourth night, the wind changed. It came out of the north, cold and wild, and it blew the twelve ships south for nine days and nine nights, far off any map, to a shore that nobody recognised.
 
 Odysseus climbed a hill and looked out at strange trees and a strange sun, and he understood, with a sinking feeling, that the way home was not going to be short.
@@ -362,6 +364,8 @@ The old man's trowel dropped into the dirt.
 He did not say his son's name. He could not. He just held out his arms, and Odysseus knelt down in the orchard beside him, and the two of them stayed there among the pear trees for a long time while the bees went about their business.
 
 Ithaca was quiet after that. Truly quiet. The loud young lords were gone. The palace was swept. The goats grazed on the hills and the olive trees grew, and Telemachus married a girl from the next valley, and Argos the old dog was buried under the pear tree with a stone to mark the place.
+
+The first thing Odysseus did, once the hall was clean, was to walk out to the dung heap by the gate and sit down in the dirt beside his old dog, and put his hand on the grey head, and stay there until the sun went down. Argos did not need to be told anything. He had known before anyone. He thumped his thin tail three times, and sighed, and that was all he had been waiting for.
 
 Poseidon, they say, got over his sulk in the end. Athena spoke to him, and Zeus spoke to him, and mostly, twenty years is long enough even for a sea god to hold a grudge. The waters around Ithaca were calm ever after, and the fishermen came home every evening with full nets, and nobody was ever again blown off the edge of the map.
 

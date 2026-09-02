@@ -183,6 +183,8 @@ Rama looked. Lakshmana looked. Lakshmana frowned.
 
 He went after the golden deer, and the deer led him deeper and deeper into the forest, always just out of reach, until at last, far away, it turned and was Maricha again, and called out in a voice exactly like Rama's: "Lakshmana! Sita! Help me!"
 
+Twice he nearly caught it. Twice it slipped away through the ferns with a flick of its silver-spotted tail, and looked back at him over its shoulder with eyes that were, if he had stopped to think, far too clever for a deer. But Rama did not stop to think. He was thinking about Sita's face when she had said, "Look."
+
 The cry came faintly through the trees to the hut.
 
 Sita went white. "That is Rama. He is hurt. Go to him!"
