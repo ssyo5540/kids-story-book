@@ -189,6 +189,8 @@ Isis looked at him for a long moment. Then she said, "You may not live by the ri
 
 Set went. He was better there. The desert needed a god too, and some say he even came to like it, roaring about in the dust storms with nobody to compare himself to.
 
+Now and then, on very still evenings, a hot wind blows in off the desert and rattles the palm leaves along the river, and the old people say, "There goes Set, making sure everyone remembers him," and they smile, because it is only wind.
+
 As for the river, every year since then, at the same season, it rises and floods the fields and lays down rich black mud, and the wheat grows tall and gold. The old grandmothers say the flood is Isis's tears, and that she is not crying because she is sad. She is crying because she found him, fourteen times, and because he is safe, and because every evening, when the sun sets red over the marsh, she knows exactly where he is.
 
 Sleep now. Somewhere in the evening land, the fields are green, the water is slow, and the light is like a lamp through linen. A tall, calm king is standing at the gate.

@@ -19,6 +19,10 @@ From the very first day, Lakshmana would not be parted from Rama. If Rama was in
 
 The four boys grew up together. They learned to ride and to shoot and to read the old books. Rama was the best archer anyone had ever seen, but he never boasted about it, and when a younger boy missed the target, Rama would say, "Good try. Watch my elbow," and show him again.
 
+In the evenings, when lessons were done, the brothers went down to the river. Bharata and Shatrughna raced each other along the bank. Lakshmana practised with his bow until it was too dark to see the target. And Rama sat on the steps with his feet in the water and watched the boats go by, and the boatmen called out, "Good evening, little prince!" and he called back to every one of them by name.
+
+His mother, Queen Kausalya, would come to find him there. "What are you thinking about?" she asked once. "Everything," said Rama, and she laughed, because it was true.
+
 He noticed things. He noticed when the stable boy was sad. He noticed when the old gardener's back hurt and quietly carried the heavy pots himself. The people of Ayodhya watched him grow and said to one another, "That one will be a king to remember."
 
 When Rama and Lakshmana were sixteen, a wandering sage named Vishwamitra came to the palace.
@@ -60,6 +64,8 @@ Princes had come from every kingdom. They had strained and sweated and gone red 
 When Rama walked into the great hall behind the old sage, nobody paid him much attention. He was tall, yes, and calm, yes, but he was a boy in forest clothes with a smaller boy behind him carrying two bows.
 
 Sita, watching from a balcony above, noticed him at once. She noticed the way he looked at everything in the hall with interest and at nothing with greed. She noticed that when a servant dropped a tray, Rama was the one who bent to help pick it up.
+
+Sita had spent that whole morning in her garden, the way she spent most mornings. She had a bed of jasmine that she would not let the gardeners touch, and a tame deer that ate from her hand, and a habit of talking to the trees. Her maids had had to call her three times before she came in to watch the princes try the bow, and she had come with earth still under her fingernails and a flower behind her ear, and she had leaned on the balcony rail expecting to be bored.
 
 Vishwamitra spoke to King Janaka. King Janaka looked at Rama and raised his eyebrows and shrugged. And the iron box was wheeled into the middle of the hall, rumbling, and the lid was lifted.
 
@@ -145,6 +151,10 @@ He carried them back to Ayodhya. He set them on the throne. And for fourteen yea
 
 In the forest, the years went by. Rama and Sita and Lakshmana moved from place to place. They built huts. They made friends with sages and squirrels and river turtles. Sita learned every flower. Lakshmana learned to cook, badly, and then well. Rama learned that a hut with the two people he loved in it was more of a palace than Ayodhya had ever been.
 
+They stayed for a while with an old sage named Atri and his wife Anasuya, who was so old that her hair was white as milk and so kind that birds landed on her shoulders without being asked. Anasuya took to Sita at once. She taught her which roots would keep through the dry season and how to make a lamp from a shell and a twist of cotton, and in the evenings the two of them sat together outside the hut while the men talked, and Anasuya told Sita stories about her own long life, and Sita listened, and afterward she said to Rama, "I want to be like that when I am old."
+
+"You already are," said Rama. "Only younger."
+
 And the night was quiet, and all was well.
 
 ## The Golden Deer
@@ -184,6 +194,8 @@ Lakshmana had never once in his life disobeyed Rama. He had never once refused S
 "Stay inside this line," he said. "Nothing can cross it. I will be back before the shadows move." And he ran.
 
 Sita was alone.
+
+The forest was very quiet. The five great trees stood in their ring with the sunlight moving through them. A hoopoe called somewhere and then stopped. Sita picked up the water pot she had put down when the golden deer appeared, and she looked at the line in the dust, and she told herself that Lakshmana would be back before the shadows moved, and she tried to believe it.
 
 Not long after, an old holy man came slowly up the path, leaning on a staff, with a begging bowl in his hand. "Alms," he called in a thin voice. "Alms, for a hungry old man."
 
@@ -229,6 +241,12 @@ He brought them to Sugriva, the monkey king in exile, and Sugriva opened a bundl
 
 Rama helped Sugriva win back his throne, which is another story. And Sugriva, grateful, sent monkeys in every direction to search for Sita. North, east, west, they went, and came back with nothing.
 
+Then the rains came, and nobody could travel. For four long months the sky poured down and the rivers rose and the paths turned to mud, and Rama and Lakshmana sat in a cave on the mountain and waited. Rama did not complain. But Lakshmana, who knew him, saw how he stood at the mouth of the cave every evening looking south into the rain, and how he did not sleep, and how thin he had grown.
+
+"She is alive," Lakshmana said one night. "I feel it. She is too stubborn to be anything else."
+
+Rama almost smiled. "She is," he said. "She would tell me off for worrying."
+
 The ones who went south came to the edge of the world, where the land ended and the sea began, and they sat down on the sand and felt very small, until old Jambavan the bear reminded Hanuman who he was.
 
 You may have heard what happened next. How Hanuman grew as tall as a mountain and leaped across the whole sea in one jump. How he met a golden mountain and a serpent lady and a shadow-catcher on the way. How he shrank to the size of a cat and crept through the city of Lanka, and found Sita under a tree in a garden of orange flowers, and gave her Rama's ring, and she gave him her hair jewel, and he leaped back across the sea with the good news.
@@ -265,6 +283,8 @@ The monkeys wanted to send him away. Rama lifted him up.
 
 Then there was a great deal of noise for many days.
 
+Inside Lanka, in the garden of orange flowers, Sita heard the drums and did not know what they meant. There was one guard in that garden who had been kind to her all along, an old woman named Trijata, and Trijata came to her under the tree and took her hands and said, "Do not be afraid, child. I dreamed last night of a prince on a white elephant, and a bright light, and a great many monkeys. It is nearly over." And Sita, who did not believe in dreams very much, found that she believed in this one, and slept.
+
 There were drums and shouting and the thunder of feet and the whistle of arrows, and I will not tell you all of it, because it is not a story for the end of the day. It is enough to say that the monkeys were brave, and the bears were braver, and Lakshmana was hurt once and lay very still until Hanuman flew all the way to the Himalayas in a single night and brought back a whole mountain of healing herbs, and Lakshmana sat up and asked for breakfast.
 
 And it is enough to say that at the end, on the last day, Rama and Ravana faced each other on an empty field.
@@ -300,6 +320,8 @@ Vibhishana gave them a gift for the journey home: a flying chariot called Pushpa
 They flew north over the sea, and Sita looked down at the bridge of stones and shivered and then smiled. They flew over the forest, and Rama pointed out the hut at Panchavati, and the hill at Chitrakoot, and the place where Lakshmana had first learned to cook rice without burning it. They flew over the river where the old vulture had rested.
 
 Sita fell asleep with her head on Rama's shoulder somewhere over the mountains, and Hanuman covered her with his own shawl.
+
+Below them the monkey mountain went by, and Hanuman leaned far out over the side and pointed down at the very rock where old Jambavan had once said, "Do you not remember who you are?" and he laughed quietly to himself. Sugriva was asleep. Half the monkeys were asleep. Lakshmana was not, because Lakshmana never slept when Rama was awake, and the two brothers sat side by side and watched the world go by beneath them without saying much, which was how they had always liked it.
 
 Meanwhile, in Ayodhya, Bharata had been counting.
 

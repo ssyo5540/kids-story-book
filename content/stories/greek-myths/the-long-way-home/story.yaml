@@ -1,0 +1,10 @@
+id: the-long-way-home
+collection: greek-myths
+mythology: greek
+durationClass: 60
+ageRange: [6, 10]
+characters: [Odysseus, Zeus, Hermes]
+tags: [journey, sea, cleverness, homecoming]
+sourceNotes: "Homer's Odyssey retold gently in seven chapters. The Cyclops is escaped by trickery rather than blinding; the suitors are sent away rather than slain; storms lose 'an oar and a barrel of apples' rather than men."
+order: 5
+cover: { accent: "#3aa7c9", symbol: wave }
