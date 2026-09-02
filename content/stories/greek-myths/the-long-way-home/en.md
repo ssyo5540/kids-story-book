@@ -17,6 +17,8 @@ Then came the war.
 
 It was a long quarrel between kingdoms very far away, and I will not tell you all of it, because it is not a story for the end of the day. It is enough to say that Odysseus did not want to go, and went anyway, because he had promised, and that he kissed the top of his son's head and told Penelope, "Ten years at the most," and meant it, and was wrong.
 
+On the morning he sailed, Penelope walked down to the harbour with the baby on her hip and stood on the stone quay in the wind. She did not cry. She was not the crying kind. But when the ship turned past the point and out of sight, she stayed on the quay a long time, and the baby pulled her hair, and she said to him, "Your father is very clever. He will find the way back. Clever people always do." She said it every evening for twenty years, and it became a kind of song.
+
 The quarrel lasted ten years all by itself. And it was Odysseus, in the end, who found a way to finish it, with a wooden horse and a very clever idea, and when it was over, all the kings gathered their ships and turned toward home.
 
 Odysseus had twelve ships and six hundred men, and on the morning they set sail, he stood at the front of the first ship with the wind in his beard and the sea ahead of him, and he said out loud, "Ithaca."
@@ -45,6 +47,8 @@ They were gentle folk who lived on the fruit of a plant called the lotus, and th
 
 Odysseus had to carry them back to the ships himself, one over each shoulder, with the third one wandering behind him picking flowers. He tied them to their benches until the fruit wore off, and they woke up cross and embarrassed and very hungry.
 
+The lotus-eaters waved goodbye from the beach, smiling their sleepy smiles, quite unoffended. "Come back any time," they called. "We will still be here." And they would be, too. That was rather the point of them.
+
 "Nobody eats anything on a strange island," said Odysseus, "unless I have eaten it first."
 
 The second strange land was worse.
@@ -61,6 +65,8 @@ Then he lay down across the cave mouth and fell asleep with a snore that shook d
 
 Odysseus did not sleep. He sat in the dark and thought.
 
+The cave smelled of sheep and smoke. Somewhere in the back, water dripped. The two men in the basket whispered down to ask if he had a plan, and he said, "Not yet," and then, an hour later, "Nearly," and then, just before the grey light came under the boulder, "Yes." He had counted the sheep. He had noticed how thick their wool was. And he had noticed the giant's cup.
+
 In the morning the giant drove his sheep out to graze, rolling the boulder aside just long enough to let them through and rolling it back again before any small man could follow. All day Odysseus thought. When the giant came home at dusk, Odysseus stepped forward with a big wooden bowl in his hands.
 
 "Great one," he said politely, "we have brought you a gift from our ship. Wine. Have you tasted wine?"
@@ -75,7 +81,7 @@ Polyphemus had not. He drank the whole bowl in one gulp and smacked his lips and
 
 Odysseus and his men worked all night. They lifted the two men down from the basket. And when the giant rolled the boulder aside at dawn to let out his sheep, every single one of the small men was hanging underneath a sheep, clinging to the thick wool with both arms, so that the giant felt the sheep's backs as they passed, one by one, and never once thought to feel underneath.
 
-They ran for the ship. The giant heard them and roared and came stumbling down the hill, but he could not see them well in the bright morning, and the other giants who came running to help shouted, "Who is bothering you?" and Polyphemus bellowed, "NOBODY!" and the other giants shrugged and went home.
+They ran for the ship. The giant heard them and roared and came stumbling down the hill, but he could not see them well in the bright morning, and the other giants who came running to help shouted, "Who is bothering you?" and Polyphemus bellowed, "Nobody!" and the other giants shrugged and went home.
 
 The ships pulled away. And Odysseus, standing at the stern, could not resist.
 
@@ -143,6 +149,8 @@ Circe laughed, and it was not a witch's laugh, only a woman's. She went out to t
 
 They stayed on Circe's island for a whole year. She fed them and healed their hurts and mended their sails, and she and Odysseus talked long into the evenings about the shapes of the stars. When at last he said, "I have to go home," she did not try to stop him.
 
+The men, who had been at sea or at war for eleven years, learned what it was to sleep in a bed again. They grew fat. They argued about nothing. Two of them planted a vegetable garden behind the stone house and became very fierce about it. The lions and wolves, who were gentler than any dog, followed them about and lay across their feet at night. And Odysseus, who had not stopped moving since the day he left Ithaca, discovered that he did not know how to rest, and had to be taught by a witch.
+
 "The way home," she said, "passes the singing rocks. Listen carefully. This is what you must do."
 
 And the sea was quiet that night, and Ithaca was a memory, and a hope.
@@ -158,6 +166,8 @@ Their song is not loud. It is not even beautiful, exactly. But whoever hears it 
 Odysseus did exactly that. He melted a wheel of wax and pressed it into every ear on the ship. Then he stood against the mast while they wound the rope around him, and he said, "Row. Do not stop. Do not look at me."
 
 They rowed. The rocks came into view, grey and low, and on them sat the Sirens, and they began to sing.
+
+They did not look dangerous. That was the trouble. They looked like ordinary women sitting on a rock combing their hair, and the sea around them was flat and gentle and blue, and the sun was warm. If you had not known, you would have thought it the most peaceful place in the world, which is exactly what it wanted you to think.
 
 Odysseus heard it.
 
@@ -178,6 +188,8 @@ Beyond the rocks the sea narrowed between two cliffs. Under one cliff was a whir
 They rowed fast. They held on. The whirlpool roared on one side, and Scylla's heads came down on the other, snapping, and the ship shot between them like a stone from a sling, and when they came out into open water and counted, they had lost one oar and a barrel of apples and nothing else at all.
 
 "Well," said Odysseus, a little pale. "I liked those apples."
+
+Behind them, Scylla's six heads watched the ship pull away, and one of them, the smallest, was chewing thoughtfully on an oar. The whirlpool gulped and gurgled and spat up a fountain that fell back into the sea like rain, and then it was quiet, and the two cliffs stood there in the sunshine looking perfectly harmless, waiting for the next ship.
 
 Then came the island of the Sun.
 
@@ -208,6 +220,8 @@ It was the Sirens' song, but gentler, and truer, and offered with love.
 Odysseus thanked her. And he stayed, because he had no ship, and no way to build one, and because he was so very tired.
 
 He stayed for seven years.
+
+The cedar island was very beautiful. Four springs ran down through the meadows, and the grapevines were always heavy, and violets grew right down to the sand. Calypso sang while she wove, in a voice that made the birds go quiet to listen. In the evenings she and Odysseus ate by the fire and she asked him about the world, and he told her, and she laughed in all the right places, and it should have been enough. He knew it should have been enough. That was the hardest part.
 
 He was not unhappy, exactly. Calypso was good to him. The island was lovely. But every single morning he walked down to the shore and sat on the same rock and looked east, toward where Ithaca must be, and every single evening Calypso found him there, and every single evening she said nothing, and led him back to the fire.
 
@@ -243,6 +257,8 @@ A princess named Nausicaa and her friends were playing on the beach, and they sc
 
 Her father was king of that island, and the people there were sailors, the best in the world. They fed Odysseus and gave him clean clothes and, after he had told them his whole long story, they gave him a ship.
 
+Their palace had doors of gold and walls that glowed like the inside of a shell, and a garden where the fruit trees bore in every season at once. Odysseus, who had lived in a cave for seven years and in a barrel of seawater for two days before that, stood in the doorway with his hair full of salt and felt, for a moment, very small. Then Nausicaa's mother looked up from her spinning and said, "You poor man, sit down before you fall down," and he was not small any more, only tired.
+
 He fell asleep on the deck before it left the harbour. The sailors rowed all night. And in the grey of dawn they lifted him, still sleeping, and laid him down on a beach, with gifts piled around him, and rowed quietly away.
 
 When he woke up, he did not know where he was.
@@ -262,6 +278,8 @@ The news was not good.
 Penelope had waited. For twenty years she had waited, and for the last ten, when everyone else had given him up for lost, a crowd of loud young lords had moved into the palace and refused to leave. They ate her food. They drank her wine. They told her every day that Odysseus was gone and she must marry one of them.
 
 Penelope, being cleverer than all of them together, had said, "Certainly. As soon as I have finished weaving this cloth." And every day she wove, and every night she crept down and unpicked what she had woven, so that the cloth was never finished, and this had gone on for three years before one of the maids gave her away.
+
+Those nights at the loom were the loneliest of her life. She sat in the dark with a single lamp, pulling out thread after thread, listening to the snores of the lords in the hall below, and she talked to Odysseus as if he were there. "You would laugh at this," she would tell the empty room. "You would say it was exactly the sort of thing you would have done." And then she would go on unpicking, until the cloth was as bare as it had been the morning before.
 
 And Telemachus, the baby who had grabbed his father's beard, was a young man now, tall and worried, trying to hold the palace together and not knowing how.
 
@@ -354,6 +372,8 @@ Odysseus grew old in the house he had built around a tree. He walked down to the
 Sometimes, in the evenings, his grandchildren climbed into his lap and asked for the story of the giant with one eye, and he told it, and they asked for the pigs, and he told that too. And when they asked, "Was it worth it, Grandfather? All those years?" he would look at Penelope across the room, and at Telemachus in the doorway, and at the firelight on the walls of his own house, and he would say, "Every wave of it."
 
 Then he would carry them up to bed.
+
+He was not as strong as he had been, and there were quite a lot of grandchildren, so it took several trips, and Penelope stood at the bottom of the stairs pretending not to count.
 
 So close your eyes. You are on a small rocky island, in a house built around a living tree. The harbour is shaped like a cupped hand. The goats are asleep on the hills, and the olive leaves are whispering, and somebody who was gone a very long time is home.
 

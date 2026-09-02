@@ -21,7 +21,7 @@ Osiris walked out to the muddy bank after the river had flooded and gone down. H
 
 Isis showed the women how to spin flax into thread and weave it into linen, so that everyone had clothes that were cool in the heat. She taught them which plants healed a fever and which soothed a burn. She taught them songs to sing while they worked, so that the work went faster.
 
-The hungry months ended. Villages grew along the river. Children grew fat and loud. And in every house, when the family sat down to eat, somebody would say, "Thank Osiris for the bread. Thank Isis for the cloth." And they meant it.
+The hungry months ended, and nobody missed them. Villages grew along the river. Children grew fat and loud. And in every house, when the family sat down to eat, somebody would say, "Thank Osiris for the bread. Thank Isis for the cloth." And they meant it.
 
 Osiris was so happy with Egypt that he wanted to share it. He left Isis to rule and set off to travel the whole world, teaching people everywhere how to plant and harvest. He was gone for years, and wherever he went, fields sprang up behind him.
 

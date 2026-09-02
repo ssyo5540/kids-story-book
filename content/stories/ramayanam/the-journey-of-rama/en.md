@@ -83,6 +83,8 @@ Sita, on her balcony, laughed out loud, and then covered her mouth, and then did
 
 The wedding was the finest Mithila had ever seen. King Dasharatha came from Ayodhya with all his queens and the three other princes, and it turned out that Janaka had a second daughter and two nieces, so Bharata and Lakshmana and Shatrughna were married too, all in the same week, and there were so many lamps that the city glowed like a second sunrise.
 
+Sita's tame deer wandered into the middle of the ceremony and had to be led out by a giggling maid. Lakshmana, who had never been to a wedding before, kept asking what happened next. Old King Dasharatha wept from the beginning to the end and said afterward that he had never been happier, which was true. And Queen Kausalya took Sita's hands in hers and looked at her for a long moment and said only, "Look after him. He forgets to eat when he is thinking," and Sita said, "I have noticed."
+
 Rama and Sita walked around the sacred fire seven times, hand in hand, and each time round, she looked at him and he looked at her, and they both had the same feeling, which was that they had known each other a very long time and had only just now found out.
 
 They went home to Ayodhya together in a procession that took a week to pass. The people threw flowers from every rooftop. Rama waved until his arm ached, and Sita, who was not used to cities, held his other hand tightly and looked at everything.
@@ -253,6 +255,8 @@ You may have heard what happened next. How Hanuman grew as tall as a mountain an
 
 When Hanuman landed on the beach and put the jewel into Rama's hand and said, "She is alive. She is waiting. She said to come soon," Rama did something he had not done in all that long journey.
 
+He had come down out of the sky like a falling star, and the monkeys on the shore had shouted so loudly that birds rose from every tree for a mile. He had told the whole story to the whole army before Rama could get a word in, the golden mountain and the serpent lady and the garden of orange flowers, waving his arms, and the monkeys had cheered at every part. But then he had gone quiet and walked through the crowd to where Rama stood, and knelt, and opened his fist.
+
 He wept. And then he laughed. And then he put both arms around the monkey and held him.
 
 "You are my brother," he said. "As much as Lakshmana. As much as anyone."
@@ -350,6 +354,8 @@ They lit lamps.
 Every household set a small clay lamp in its window. Then another on the doorstep. Then a row along the wall. Children ran with lamps down every street. Lamps floated on the river. Lamps burned on every rooftop and every gate and every temple step, until the whole city glowed gold from end to end, and travellers on distant roads looked up and said, "What is that light in the north?"
 
 It was Ayodhya, welcoming Rama home.
+
+Children who had been born while Rama was away, who had only ever heard of him in bedtime stories, stood on their fathers' shoulders to see the tall dark prince walk by and were surprised to find that he was real, and that he waved at them, and that he looked a little tired and very happy, like anybody who has come home from a long way off. Old people who had lined this same road fourteen years ago, weeping, lined it again and did not weep this time, or only a little. Someone started to sing. Everybody knew the words.
 
 Through the streets of lamps, Rama and Sita walked to the palace with Lakshmana on one side and Hanuman on the other and Bharata running ahead, still carrying the sandals, because he had forgotten to put them down. The people threw flowers until the flowers were ankle deep. Nobody slept that night. Nobody wanted to.
 
