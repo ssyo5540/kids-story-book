@@ -27,7 +27,7 @@ It was the greenest island in the world. Fig trees grew right down to the water,
 
 "Well," said the sailor to himself, "I shall not go hungry, at any rate."
 
-He ate figs until his stomach hurt. He drank from a stream of sweet water. He built a little fire from driftwood and cooked a fish, and it was the best fish he had ever eaten in his life, because he had been so sure he would never eat anything again.
+He ate figs until his stomach hurt, and then, because he was a sailor and sailors are practical, he ate a few more for later. He drank from a stream of sweet water. He built a little fire from driftwood and cooked a fish, and it was the best fish he had ever eaten in his life, because he had been so sure he would never eat anything again.
 
 Then, feeling grateful and a little less alone, he made a small offering of fruit to the gods on a flat stone, and said thank you.
 

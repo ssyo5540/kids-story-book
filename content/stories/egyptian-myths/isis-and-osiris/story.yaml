@@ -1,0 +1,10 @@
+id: isis-and-osiris
+collection: egyptian-myths
+mythology: egyptian
+durationClass: 30
+ageRange: [6, 10]
+characters: [Isis, Osiris, Thoth, Anubis]
+tags: [love, searching, river, kingdom]
+sourceNotes: "Plutarch and the Pyramid Texts, heavily softened: Set closes Osiris in a chest and floats it down the Nile; Isis searches and finds him at Byblos; Set hides the chest again in the marshes; Isis, Nephthys, Anubis and Thoth find him and he chooses to rule the peaceful Field of Reeds. No violence is described."
+order: 5
+cover: { accent: "#c9a227", symbol: feather }

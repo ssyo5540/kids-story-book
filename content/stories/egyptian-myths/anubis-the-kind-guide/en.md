@@ -103,6 +103,8 @@ Nebi made a sound that was half a laugh and half something else, and he began to
 
 Anubis stood at the edge of the field and watched, and if a jackal can smile, he smiled.
 
+The dog licked Nebi's whole face, from chin to forehead, twice, the way he always had, and Nebi lay in the grass laughing and saying, "All right, all right," and not really wanting him to stop.
+
 Farther along the bank, a woman was walking toward them with a basket of bread, and Nebi knew her walk before he could see her face.
 
 "Thank you," he called back over his shoulder. "Thank you for walking with me."

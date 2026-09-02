@@ -99,6 +99,8 @@ On the fourth day came Isis, who was clever like Thoth and kind like her mother,
 
 And on the fifth day came Nephthys, quiet and thoughtful, who liked the evening best.
 
+Five babies in five days is a great many babies, even for a goddess. Nut lay along the top of the sky with all of them tucked into the curve of her arms, and Geb rumbled lullabies from below, and Thoth sat nearby writing down their names very carefully in a brand-new scroll, because he knew they would be important one day.
+
 Ra found out, of course. He came storming across the sky with his face blazing, ready to be very angry with somebody. But when he looked down and saw five small new gods tumbling about on the grass, giggling and grabbing each other's toes, something in his old heart went soft.
 
 "Well," he grumbled, "I suppose I did not say anything about those days."

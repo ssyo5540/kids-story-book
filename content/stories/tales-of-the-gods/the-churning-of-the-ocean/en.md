@@ -33,6 +33,10 @@ Nobody knew. But everybody knew who might.
 
 So they went, all of them together, down through the clouds and across the world to the great ocean of milk, where Vishnu, the keeper of all things, lay resting on the coils of a thousand-headed serpent, dreaming the world along.
 
+It was a long walk. The gods were not used to walking. Their feet, which had never touched anything rougher than a marble floor, grew sore on the stony paths of the world, and their fine clothes caught on thorn bushes, and more than one of them sat down by the roadside and said they could not go another step. Indra walked at the back, where a king walks when his people are tired, and he said very little, and he thought a great deal about a garland lying in the dust.
+
+Villagers came out of their houses to stare at the strange grey procession. "Who are they?" the children asked, and the grandmothers said, "Hush. I think they used to be somebody."
+
 Vishnu opened his eyes and looked at the faded gods, and he did not laugh, though he might have.
 
 "You have lost your brightness," he said. "That is not a small thing. But it can be found again."
@@ -93,6 +97,10 @@ The gods took the tail. The asuras took the head. And the mountain turned again,
 
 Round and round. Pull and give. Pull and give.
 
+On the first day the two families did not speak to each other. On the second day an asura made a joke about the gods' soft hands, and a god made a joke about the asuras' loud voices, and both sides laughed, and after that it was easier. By the third day they were passing water skins across the serpent's back. By the fourth, when a young god slipped on the wet sand and fell, it was an asura who hauled him up by the arm and asked if he was hurt.
+
+The great tortoise, far below, felt the mountain grinding round and round on his shell for hour after hour, and he did not complain once. Patience was the whole of his nature. He had been holding up the world, in one way or another, since long before anyone remembered, and he could hold up a mountain for as long as it took.
+
 It was hard work. The sun crossed the sky and set. The stars came out and went in. The gods pulled, and the asuras pulled, and slowly they found a rhythm together, the way rowers do, until nobody could tell which side was which. Somebody began to sing, low and steady, to keep the time. Somebody on the other side joined in.
 
 Vasuki the serpent, being pulled back and forth for hours, grew rather warm, and now and then a puff of hot breath came out of his mouth over the asuras, who wiped their faces and did not complain.
@@ -120,6 +128,8 @@ Then an elephant, white as well, with four great tusks. Indra's own elephant, th
 Then a jewel, the size of a fist, that glowed with every colour and none. Then a tree covered in flowers that never fell, whose scent could be smelled from the far side of the world. Then a whole crowd of dancing girls in silver and blue, laughing, who spun away across the water like leaves on a wind.
 
 Every time something new rose up, the gods and the asuras both shouted, and both said, "That one is ours!" and both, after some grumbling, agreed to share.
+
+A great white conch shell came up next, spiralling out of the foam, and when Vishnu lifted it to his lips and blew, the sound rolled out over the water so deep and so wide that the fish leaped and the asuras clapped their hands over their ears and grinned. Then a bow of pure silver, that sang when its string was touched. Then a physician's bag full of every healing herb that grows. The beach began to look like the marketplace of a very strange and wonderful town.
 
 Then the churning brought up the moon.
 
@@ -173,6 +183,8 @@ He came up out of the ocean, not as a tortoise this time, but as a dancer.
 
 She was called Mohini, and she was the most enchanting dancer who ever lived. Her anklets chimed. Her silks were the colour of sunset. She danced along the shore toward the asuras with the golden pot, and they forgot, every one of them, what they had been about to do.
 
+She turned once, and the sand where her feet had been was covered in flowers. She turned twice, and the asuras forgot their own names. She turned a third time, slowly, with the golden pot glowing behind her, and the whole beach leaned toward her the way grass leans toward the sun.
+
 "Such a beautiful pot," said Mohini. "Such a lot of quarrelling over it. Let me pour. I will give everyone a share, and nobody will have to fight."
 
 The asuras looked at each other. This seemed perfectly reasonable. They handed her the pot.
@@ -192,6 +204,8 @@ And when the pot was empty and the shore was quiet, the gods sat down in the san
 The mountain was back where it belonged. The serpent was uncoiled and asleep. The great tortoise had swum away. The moon sat in Shiva's hair, and Lakshmi sat beside Vishnu, and the white cow grazed along the beach with her bell ringing softly by itself.
 
 "We could not have done it alone," said Indra.
+
+Across the beach, the asura king Bali was looking at the empty pot with his arms folded, and Indra got up, brushed off the sand, and went over to him. Nobody heard what they said. But when Indra came back, he looked as though he had set something down that had been heavy for a very long time, and in the years that followed, when people spoke of the churning, they did not say the gods had done it. They said everyone had.
 
 Nobody argued.
 
