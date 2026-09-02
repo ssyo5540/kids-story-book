@@ -1,0 +1,10 @@
+id: the-pot-that-never-emptied
+collection: mahabharatam
+mythology: indian
+durationClass: 5
+ageRange: [4, 8]
+characters: [Draupadi, Krishna, Yudhishthira, Bhima]
+tags: [kindness, sharing, food, forest]
+sourceNotes: "Vana Parva. Surya's Akshaya Patra feeds the Pandavas in exile; Durvasa arrives after Draupadi has eaten; Krishna finds a single grain of rice and the sages feel full. Softened: no curse."
+order: 2
+cover: { accent: "#c9a227", symbol: pot }

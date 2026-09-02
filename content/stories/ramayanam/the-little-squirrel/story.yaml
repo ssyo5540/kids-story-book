@@ -1,0 +1,10 @@
+id: the-little-squirrel
+collection: ramayanam
+mythology: indian
+durationClass: 5
+ageRange: [3, 7]
+characters: [Rama, Hanuman]
+tags: [helping, small-things, squirrel, bridge]
+sourceNotes: "The squirrel who carried pebbles for the bridge to Lanka; Rama strokes her back and leaves three stripes. Gentle telling; no battle."
+order: 2
+cover: { accent: "#e9a520", symbol: bridge }

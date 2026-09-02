@@ -1,0 +1,10 @@
+id: baby-hanuman-and-the-mango
+collection: ramayanam
+mythology: indian
+durationClass: 5
+ageRange: [3, 7]
+characters: [Hanuman]
+tags: [curiosity, hanuman, sky, gods]
+sourceNotes: "Baby Hanuman mistakes the rising sun for a mango and leaps into the sky. Softened: Indra sends a cool wind instead of a thunderbolt; the wind god catches him; the gods bless him."
+order: 1
+cover: { accent: "#f6b73c", symbol: mango }

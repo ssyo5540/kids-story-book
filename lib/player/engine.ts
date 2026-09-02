@@ -33,7 +33,10 @@ export class AudioEngine {
     this.previewEl = els.preview;
     this.canSetVolume = detectVolumeControl(els.narration);
     const n = els.narration;
+    // Events from the silent unlock clip must never reach the store (it would look like a story ending).
+    const isUnlockClip = () => (n.currentSrc || n.src || "").endsWith(SILENCE);
     const emit = (e: EngineEvent) => {
+      if (e.type !== "previewended" && isUnlockClip()) return;
       for (const l of this.listeners) l(e);
     };
     const time = () =>

@@ -1,0 +1,10 @@
+id: the-blue-jackal
+collection: panchatantra
+mythology: indian
+durationClass: 5
+ageRange: [3, 7]
+characters: []
+tags: [honesty, belonging, jackal, forest]
+sourceNotes: "Panchatantra, Mitra-bheda. Chandarava the jackal falls into a vat of indigo dye and pretends to be a king. Softened ending: he is found out, apologises and goes home."
+order: 1
+cover: { accent: "#5b7bd6", symbol: banyan }

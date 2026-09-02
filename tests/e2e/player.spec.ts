@@ -14,14 +14,17 @@ test("play a story, see the player, pause and resume position", async ({ page })
 
   // sheet opens with the narrator line
   await expect(page.getByText(/Read by/)).toBeVisible({ timeout: 30_000 });
+  await expect
+    .poll(async () => (await audioState()).src, { timeout: 120_000 })
+    .toContain("/audio/arjuna-and-the-birds-eye/en-IN/");
   await expect.poll(async () => (await audioState()).paused, { timeout: 30_000 }).toBe(false);
-  await expect.poll(async () => (await audioState()).src).toContain("/audio/arjuna-and-the-birds-eye/en-IN/");
 
-  await page.waitForTimeout(2500);
-  await page.getByRole("button", { name: "Pause" }).first().click();
+  await page.waitForTimeout(1500);
+  await page.getByRole("dialog").getByRole("button", { name: "Forward 15 seconds" }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "Pause" }).click();
   await expect.poll(async () => (await audioState()).paused).toBe(true);
   const { time } = await audioState();
-  expect(time).toBeGreaterThan(1);
+  expect(time).toBeGreaterThan(10);
 
   // reload: position is remembered and offered on resume
   await page.reload();
@@ -32,6 +35,9 @@ test("switching voice keeps the position and shows preparing state", async ({ pa
   const audioState = () => audioStateOf(page);
   await page.goto("/stories/arjuna-and-the-birds-eye");
   await page.getByRole("button", { name: /Play Arjuna/ }).click();
+  await expect
+    .poll(async () => (await audioState()).src, { timeout: 120_000 })
+    .toContain("/audio/arjuna-and-the-birds-eye/en-IN/");
   await expect.poll(async () => (await audioState()).paused, { timeout: 30_000 }).toBe(false);
   await page.waitForTimeout(3000);
 
@@ -52,6 +58,9 @@ test("sleep timer menu and ambience menu render options", async ({ page }) => {
   await page.goto("/stories/arjuna-and-the-birds-eye");
   await page.getByRole("button", { name: /Play Arjuna/ }).click();
   await expect(page.getByText(/Read by/)).toBeVisible({ timeout: 30_000 });
+  await expect
+    .poll(async () => (await audioStateOf(page)).src, { timeout: 120_000 })
+    .toContain("/audio/arjuna-and-the-birds-eye/en-IN/");
   await page.getByRole("button", { name: /^Sleep/ }).click();
   await expect(page.getByRole("button", { name: "End of story" })).toBeVisible();
   await page.getByRole("button", { name: "10 min" }).click();

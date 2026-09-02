@@ -1,0 +1,10 @@
+id: the-talkative-tortoise
+collection: panchatantra
+mythology: indian
+durationClass: 5
+ageRange: [3, 7]
+characters: []
+tags: [patience, friendship, tortoise, geese]
+sourceNotes: "Panchatantra, Kambugriva the tortoise carried by two geese. Softened ending: he lands in a soft haystack and reaches the lake safely."
+order: 3
+cover: { accent: "#5cb88a", symbol: tortoise }

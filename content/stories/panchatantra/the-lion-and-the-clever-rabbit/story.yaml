@@ -1,0 +1,10 @@
+id: the-lion-and-the-clever-rabbit
+collection: panchatantra
+mythology: indian
+durationClass: 5
+ageRange: [4, 8]
+characters: []
+tags: [cleverness, courage, lion, rabbit]
+sourceNotes: "Panchatantra, Mitra-bheda. The rabbit tricks the greedy lion with his own reflection in a well. Softened ending: the lion gets a cold soaking and learns to share the forest."
+order: 2
+cover: { accent: "#e08a3c", symbol: banyan }

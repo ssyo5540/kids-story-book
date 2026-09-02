@@ -16,6 +16,8 @@ export function AudioProvider() {
 
   useEffect(() => {
     if (!narration.current || !ambience.current || !preview.current) return;
+    // Debug/e2e hook: inspect the player store from the console.
+    (window as unknown as { __nightlightPlayer?: unknown }).__nightlightPlayer = usePlayerStore;
     const detach = engine.attach({
       narration: narration.current,
       ambience: ambience.current,
