@@ -3,7 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { parse as parseYaml } from "yaml";
 import { getConfig } from "@/lib/config";
-import { type Glossary, parseGlossary } from "./glossary";
+import { type Glossary, parseGlossary, textHasGlossaryName } from "./glossary";
 import { contentHash } from "./hash";
 import { countChars, countWords, parseBody } from "./markdown";
 import { collectionSchema, storyFrontmatterSchema, storyMetaSchema } from "./schema";
@@ -289,7 +289,7 @@ export async function readContent(contentDir: string): Promise<RawContent> {
             }
             continue;
           }
-          if (!full.includes(canonical)) {
+          if (!textHasGlossaryName(full, canonical, lang)) {
             issues.push({
               level: "warn",
               file: t.file,

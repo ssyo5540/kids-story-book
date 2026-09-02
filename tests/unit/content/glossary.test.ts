@@ -9,3 +9,14 @@ describe("parseGlossary", () => {
     expect(g.Ra).toEqual({ en: "Ra", ta: "ரா" });
   });
 });
+
+import { textHasGlossaryName } from "@/lib/content/glossary";
+
+describe("textHasGlossaryName", () => {
+  it("accepts inflected Tamil, Malayalam and Telugu forms", () => {
+    expect(textHasGlossaryName("அவள் தருமரைப் பார்த்தாள்", "தருமர்", "ta")).toBe(true);
+    expect(textHasGlossaryName("അവൾ യുധിഷ്ഠിരനെ നോക്കി", "യുധിഷ്ഠിരൻ", "ml")).toBe(true);
+    expect(textHasGlossaryName("అర్జునుడి భుజం", "అర్జునుడు", "te")).toBe(true);
+    expect(textHasGlossaryName("nothing here", "Arjuna", "en")).toBe(false);
+  });
+});

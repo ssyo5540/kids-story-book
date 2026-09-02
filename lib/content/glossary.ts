@@ -32,3 +32,38 @@ export function parseGlossary(md: string): Glossary {
   }
   return out;
 }
+
+/**
+ * Inflected names (Tamil "தருமரை", Malayalam "യുധിഷ്ഠിരനെ", Telugu "అర్జునుడి") do not contain the
+ * nominative canonical spelling verbatim. Return the canonical plus a short stem so a text passes when it
+ * uses the name in any common case form.
+ */
+export function glossaryStems(canonical: string, lang: Lang): string[] {
+  const out = new Set<string>([canonical]);
+  const strip = (re: RegExp) => {
+    const stem = canonical.replace(re, "");
+    if (stem !== canonical && [...stem].length >= 3) out.add(stem);
+  };
+  switch (lang) {
+    case "ta":
+      strip(/\u0BCD$/u); // final pulli: தருமர் -> தருமர
+      break;
+    case "ml":
+      strip(/[\u0D7A-\u0D7F]$/u); // chillu: യുധിഷ്ഠിരൻ -> യുധിഷ്ഠിര
+      strip(/(ൻ|ർ|ൽ|ൾ|ൺ|ൿ)$/u);
+      break;
+    case "te":
+      strip(/డు$/u); // అర్జునుడు -> అర్జును (matches అర్జునుడి, అర్జునుడు)
+      break;
+    case "kn":
+      strip(/ನು$/u);
+      break;
+    default:
+      break;
+  }
+  return [...out];
+}
+
+export function textHasGlossaryName(text: string, canonical: string, lang: Lang): boolean {
+  return glossaryStems(canonical, lang).some((stem) => text.includes(stem));
+}
