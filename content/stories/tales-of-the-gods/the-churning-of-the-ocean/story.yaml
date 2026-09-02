@@ -1,0 +1,10 @@
+id: the-churning-of-the-ocean
+collection: tales-of-the-gods
+mythology: indian
+durationClass: 30
+ageRange: [5, 10]
+characters: []
+tags: [wonder, teamwork, ocean, moon]
+sourceNotes: "Samudra Manthan (Bhagavata Purana, Mahabharata Adi Parva). Softened: the poison is kept in Shiva's throat, Rahu becomes the shadow of eclipses rather than being beheaded, no battle over the nectar."
+order: 5
+cover: { accent: "#3aa7c9", symbol: wave }

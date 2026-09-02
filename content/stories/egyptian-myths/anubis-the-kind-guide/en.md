@@ -47,6 +47,18 @@ They talked, the way travellers do. Nebi told him about his wife, who had gone a
 
 Anubis listened to every word. He was very good at listening. It was, in fact, the thing he was best at.
 
+"May I ask you something?" said Nebi after a while.
+
+"Of course."
+
+"Do you ever get tired? Walking with people, I mean. All day and all night, one after another."
+
+Anubis thought about it, the way he thought about everything, properly.
+
+"No," he said. "Every person is different. Every story is new. And nobody is ever sorry to see the lantern once they understand what it is for. It is the best work there is. I would not trade it for the sun's boat."
+
+They walked on. Somewhere behind them, in the world they had left, Nebi's great-grandchildren were asleep in a heap on his doorstep, and one of them, the smallest, was dreaming about a boat.
+
 At last they came to a great hall, open to the sky, with tall pillars painted every colour there is. In the middle of the hall stood a set of golden scales.
 
 Nebi stopped in the doorway.
@@ -80,6 +92,10 @@ Beyond it lay a field.
 It stretched as far as Nebi could see, green and gold, with a river winding through it that looked very much like the Nile, only cleaner and slower. Reeds swayed. Birds sang. The light was the light of a perfect evening, the kind that comes just before supper, and it never seemed to change.
 
 Down by the water, pulled up on the bank, was a small wooden boat with a crack in it that had been patched thirty times.
+
+Nebi stopped walking. He put his hand over his mouth. "That is my boat," he said. "That is my boat. How is that my boat?"
+
+"Everything you loved comes here to wait for you," said Anubis. "That is how the field works."
 
 And sitting beside the boat, thumping his tail on the ground so hard that the dust flew up, was a small brown dog.
 
