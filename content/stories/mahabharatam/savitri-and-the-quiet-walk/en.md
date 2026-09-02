@@ -117,6 +117,8 @@ Savitri laid Satyavan's head down gently on the grass. She stood up. And she fol
 
 She walked behind Yama through the forest, keeping a few steps back, not speaking. After a while Yama stopped and turned around.
 
+The path went downhill, always downhill, and the light grew softer, the colour of late evening even though it was only afternoon. The trees changed too. They were taller here, and older, and they stood very still, as if they were listening. Savitri's bare feet made no sound on the moss. Ahead of her, the small light in Yama's palm glowed steadily, and she kept her eyes on it and did not look anywhere else.
+
 "Child," he said. "You cannot come this way. This is a road for those whose names I have called. Go home."
 
 "My lord," said Savitri, "in my father's house they taught me that a wife walks beside her husband wherever he goes. You are carrying my husband. So I am walking beside him. I am only doing what I was taught."

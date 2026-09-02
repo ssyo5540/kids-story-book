@@ -47,6 +47,8 @@ Vishnu opened his eyes and looked at the faded gods, and he did not laugh, thoug
 
 Indra looked at the ocean of milk. It stretched to the horizon in every direction, white and still under a white sky.
 
+A single wave rolled slowly in and licked the sand at his feet, and rolled slowly out again, as if to say that it had all the time in the world.
+
 "Churn it?" he said. "All of it? We could not do that in a thousand years."
 
 "No," agreed Vishnu. "Not alone."

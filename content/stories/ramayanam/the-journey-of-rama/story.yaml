@@ -1,0 +1,10 @@
+id: the-journey-of-rama
+collection: ramayanam
+mythology: indian
+durationClass: 60
+ageRange: [6, 10]
+characters: [Rama, Sita, Lakshmana, Hanuman]
+tags: [journey, courage, loyalty, homecoming]
+sourceNotes: "The whole Ramayana as a gentle bedtime telling in seven chapters, from Ayodhya to the lamps of the homecoming. Battles are summarised in a sentence; Ravana falls into a long sleep; no violence is described."
+order: 5
+cover: { accent: "#e9a520", symbol: lamp }

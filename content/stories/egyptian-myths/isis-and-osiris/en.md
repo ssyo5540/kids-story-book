@@ -25,6 +25,10 @@ The hungry months ended. Villages grew along the river. Children grew fat and lo
 
 Osiris was so happy with Egypt that he wanted to share it. He left Isis to rule and set off to travel the whole world, teaching people everywhere how to plant and harvest. He was gone for years, and wherever he went, fields sprang up behind him.
 
+He went north to lands where the winters were cold and taught people to store grain against the snow. He went east to lands of mountains and showed them how to cut steps into the hillsides so that the fields would hold. He went south along the river to its very source and sat with the people there under a great tree and listened to their songs before he taught them anything, because Osiris always listened first.
+
+Everywhere he went he left the same three gifts: seeds, and the knowing of how to plant them, and the habit of saying thank you at supper.
+
 But not everybody was happy.
 
 Osiris and Isis had a brother named Set. Set was red-haired and restless and quick to anger, and he lived at the edge of the desert, where nothing grew. He was not a monster. He was a person, or a god, who had gotten stuck in a feeling and could not find his way out of it.
@@ -87,6 +91,10 @@ It was a tamarisk tree, young and enormous, standing right at the water's edge, 
 
 The king of Byblos had seen the wonderful tree and had it cut down and carried to his palace to be a pillar in his great hall. Isis went to the palace. She did not say who she was. She sat by a well and combed the hair of the queen's maids and made them laugh, and when the queen heard about the kind stranger with the sad eyes, she sent for her and made her the nurse of the little prince.
 
+Isis did not push through the palace gates demanding her husband. She was cleverer than that, and sadder, and she knew that a queen who bursts in shouting gets thrown out, while a kind stranger who is patient gets asked to stay.
+
+So she sat by the well in the courtyard where the queen's maids came for water, and when they came she offered to braid their hair, and her fingers were so gentle and her braids so beautiful that they came back the next day, and the next, and each time they went away smelling faintly of lotus, which was the scent of Isis herself.
+
 Isis loved the little prince. She rocked him to sleep every night beside the pillar, and she sang to him, and only the pillar knew that she was really singing to the one inside it.
 
 At last she told the queen the truth. The queen wept, and the king had the pillar carefully cut open, and there was the golden chest, quite safe, smelling of cedar.
@@ -116,6 +124,10 @@ Nephthys sat with her. She did not say anything. She held her sister's hand, and
 They made a boat of papyrus, light and quick. Nephthys steered. Isis sat at the front and watched. And the marsh, which had known Isis since she first taught the fishermen to weave nets, began to help.
 
 The frogs told them which channels were deep. The herons stood on one leg on the islands and turned their heads toward hiding places. A crocodile, which is not an animal that helps very often, drifted alongside them one whole afternoon like a log, and where it stopped, they found the first of Set's markers.
+
+Once, when the boat stuck fast on a mudbank and neither sister could push it free, a hippopotamus rose out of the water beside them, huge and grey and dripping, and looked at them for a long moment with small wise eyes. Then it put its enormous head against the stern and shoved, and the boat slid off the mud like a leaf, and the hippopotamus sank back under the water without a word.
+
+"Thank you," said Isis to the ripples.
 
 And they were joined by someone else.
 
@@ -168,6 +180,8 @@ Osiris laughed for the first time since the feast.
 So he went. He became the king of the Field of Reeds, the evening land, and he made it exactly as he had promised. Green fields. Slow water. Light like a lamp through linen. And a tall calm figure at the gate who says to every tired traveller, "Come in. You must be hungry. There is bread."
 
 Isis went home. She had a baby, a boy called Horus with a falcon's bright eyes, and she hid him in the marshes and raised him among the frogs and herons until he was strong enough to be king. He grew up to be a good one.
+
+Horus grew up wild and happy in the marsh. He learned to swim before he could walk. He learned the names of every bird from the herons who had helped find his father. When he was frightened at night, his mother told him stories about a tall green king who had taught the world to make bread, and Horus would fall asleep saying, "Tell me again about the wheat." He never met his father face to face. But he knew him by heart, which is a different way of knowing, and just as good.
 
 And Set? Set was called before all the gods to explain himself. He stood there red-haired and sullen, and when they asked him why, he found that he could not say. "Everybody loved him," he muttered at last. "And nobody..." and he stopped.
 
