@@ -2,7 +2,9 @@
 title: Baby Hanuman and the Mango in the Sky
 summary: A very small monkey with a very big jump sees something round and golden in the morning sky and decides it must be breakfast.
 moral: Curiosity is wonderful, and so are the friends who catch you when you fall.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Long, long ago, in a forest full of tall trees and singing birds, a baby monkey was born. His mother named him Hanuman. He had bright brown eyes, a curly tail, and legs that were much, much stronger than they looked.

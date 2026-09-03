@@ -2,7 +2,9 @@
 title: How Thoth Won Five Extra Days
 summary: When the sun god says that the sky may not have children on any day of the year, the cleverest god in Egypt sits down to play a board game with the moon.
 moral: A clever, kind mind can find a way through almost anything.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 At the very beginning of things, in the land of Egypt, the sky was a goddess and the earth was a god.

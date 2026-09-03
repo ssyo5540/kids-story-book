@@ -2,7 +2,9 @@
 title: Baby Hermes' Busy First Day
 summary: A brand-new baby god climbs out of his cradle, invents music, plays a trick on his big brother, and makes a friend, all before bedtime.
 moral: A kind gift can turn a quarrel into a friendship.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In a cave on a quiet mountain, early one morning, a baby was born. His mother, Maia, wrapped him in a soft blanket, kissed his nose, and laid him in his cradle. Then she lay down to rest, because babies are tiring, even for goddesses.

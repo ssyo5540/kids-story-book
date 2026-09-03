@@ -2,7 +2,9 @@
 title: The Journey of Rama
 summary: From a palace in Ayodhya to a forest, an island, and home again by the light of a thousand lamps, this is the whole long story of Prince Rama, told softly for the very end of the day.
 moral: Do what is right, be kind to everyone you meet, and the road will bring you home.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 ## The Prince of Ayodhya

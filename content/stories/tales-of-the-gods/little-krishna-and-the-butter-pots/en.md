@@ -2,7 +2,9 @@
 title: Little Krishna and the Butter Pots
 summary: In a village full of cows, a small boy with a peacock feather in his hair cannot stay away from the butter, no matter how high it is hung.
 moral: A loving heart forgives a little mischief.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In a village called Gokul, on the banks of a wide slow river, there were more cows than people. There were brown cows and white cows and cows with soft grey spots, and every morning the whole village smelled of warm milk.

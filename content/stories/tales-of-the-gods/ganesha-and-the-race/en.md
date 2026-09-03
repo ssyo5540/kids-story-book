@@ -2,7 +2,9 @@
 title: Ganesha and the Race Around the World
 summary: Two brothers race around the whole world for a single golden mango, and the slower one finds a much shorter way.
 moral: The people you love are your whole world.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 High on a snowy mountain, in a home surrounded by clouds, lived a family of gods. There was Shiva, the father, who was quiet and strong. There was Parvati, the mother, who was warm and wise. And there were two brothers who could not have been more different.

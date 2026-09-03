@@ -2,7 +2,9 @@
 title: Anubis, the Kind Guide
 summary: A jackal-headed god with a lantern and a gentle voice walks beside an old fisherman on the quietest journey of all, and shows him that a kind heart is lighter than a feather.
 moral: A heart full of kindness is the lightest thing there is.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In the land of Egypt, long ago, people used to say that when someone had finished their long life, they did not simply stop. They went on a journey. And the journey had a guide.

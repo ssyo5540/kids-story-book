@@ -2,7 +2,9 @@
 title: Ra Sails the Sky
 summary: Every day the sun god rides his golden boat across the sky, and every night he sails through the dark to bring the morning back.
 moral: The night is just the sun on its way back to you.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In the land of Egypt, where the river is wide and the sand is gold, the people used to say that the sun was a boat.

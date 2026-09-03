@@ -2,7 +2,9 @@
 title: King Midas and the Golden Touch
 summary: A king who wishes that everything he touches would turn to gold discovers, by breakfast time, exactly what gold cannot do.
 moral: The best things in life are the ones gold cannot buy.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Long ago, in a kingdom of rolling hills and rose gardens, there lived a king named Midas.

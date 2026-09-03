@@ -2,7 +2,9 @@
 title: The Long Way Home
 summary: A clever king spends ten long years trying to sail home to his island, past giants and witches and singing rocks, with nothing but his wits and the picture of his family in his mind.
 moral: Keep the people you love in your heart, and you will always find your way home.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 ## The King Who Wanted to Go Home

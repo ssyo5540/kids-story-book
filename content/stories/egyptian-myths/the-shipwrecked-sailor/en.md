@@ -2,7 +2,9 @@
 title: The Shipwrecked Sailor and the Golden Serpent
 summary: Washed up alone on an island where everything grows, a sailor meets the largest and kindest creature he has ever seen.
 moral: Even the biggest, strangest stranger may be a friend waiting to be found.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 This is a story that a sailor told, long ago in Egypt, to a friend who was feeling small and frightened. It is a story about being frightened, and about what came after.

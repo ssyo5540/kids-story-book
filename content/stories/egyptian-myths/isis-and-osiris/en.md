@@ -2,7 +2,9 @@
 title: Isis and Osiris
 summary: A queen searches the whole length of the great river for the king she loves, and finds that love can reach even into the land of the evening.
 moral: Love keeps searching, and what it finds is never quite lost.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 ## The Gift of Wheat

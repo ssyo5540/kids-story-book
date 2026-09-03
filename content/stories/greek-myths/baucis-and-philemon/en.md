@@ -2,7 +2,9 @@
 title: Baucis and Philemon
 summary: Two travellers knock on every door in a village, and only the poorest little cottage opens.
 moral: Kindness to a stranger is never wasted.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 One evening, in a village at the foot of a hill, two dusty travellers came walking up the road.

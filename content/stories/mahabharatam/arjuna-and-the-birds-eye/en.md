@@ -2,7 +2,9 @@
 title: Arjuna and the Bird's Eye
 summary: Teacher Drona sets a quiet test for his students high up in a tree, and young Arjuna discovers what it means to see only one thing.
 moral: When your mind is calm, you can see clearly.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Long ago, in a kingdom called Hastinapura, there lived five brothers. People called them the Pandavas. They were still boys, and every morning they walked together to the edge of the forest, where their teacher waited under a tall old tree.

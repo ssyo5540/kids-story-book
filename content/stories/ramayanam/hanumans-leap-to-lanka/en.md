@@ -2,7 +2,9 @@
 title: Hanuman's Leap to Lanka
 summary: To carry a message of hope across the wide sea, Hanuman must jump farther than anyone has ever jumped, and meet some very strange creatures on the way.
 moral: Courage grows when you use it for someone you love.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 At the very bottom of the land, where the sand ran out and the sea began, a great crowd of monkeys sat looking at the water and feeling small.

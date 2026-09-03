@@ -2,7 +2,9 @@
 title: The Talkative Tortoise
 summary: Two kind geese carry their tortoise friend to a new lake, if only he can keep his mouth closed for a little while.
 moral: Sometimes the wisest thing to say is nothing at all.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Beside a quiet lake, under a leaning fig tree, lived a tortoise named Kambugriva. He had a shiny brown shell, a slow and steady walk, and one very big habit. He loved to talk.

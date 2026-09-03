@@ -2,7 +2,9 @@
 title: The Monkey and the Crocodile
 summary: A monkey and a crocodile share sweet fruit every afternoon, until a jealous plan tests their friendship in the middle of the river.
 moral: A good friend tells the truth, even when it is hard.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 On the bank of a slow brown river there grew a rose apple tree, so old and so wide that its branches leaned right out over the water. The fruit was small and dark and purple, and it was the sweetest fruit for a hundred miles.

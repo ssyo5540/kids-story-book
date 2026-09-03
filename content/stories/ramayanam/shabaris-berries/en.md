@@ -2,7 +2,9 @@
 title: Shabari's Berries
 summary: An old woman keeps a little hut in the forest ready for a guest she has waited for all her life, and learns that love makes even the simplest gift perfect.
 moral: A gift given with love is always enough.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Deep in a green forest, far from any town, there was a small round hut with a roof made of leaves. In front of the hut was a path of flat stones, and along the path grew bushes heavy with dark red berries.

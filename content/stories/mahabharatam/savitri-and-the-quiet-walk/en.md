@@ -2,7 +2,9 @@
 title: Savitri and the Quiet Walk with Yama
 summary: A princess who chooses her own husband follows the keeper of names down a forest path, and wins back everything with nothing but kind words and a clever mind.
 moral: Love that is patient and wise can change even what seems certain.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 ## The Princess Who Chose

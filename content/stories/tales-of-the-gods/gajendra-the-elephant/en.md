@@ -2,7 +2,9 @@
 title: Gajendra, the Elephant Who Called Out
 summary: The strongest elephant in the forest learns that even the strongest sometimes need to call for help.
 moral: It is brave to ask for help.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In a forest at the foot of a great mountain there lived a herd of elephants, and their king was called Gajendra.

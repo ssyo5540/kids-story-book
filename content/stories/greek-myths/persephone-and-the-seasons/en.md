@@ -2,7 +2,9 @@
 title: Persephone and the Seasons
 summary: When a goddess of flowers goes down to the quiet kingdom under the earth, the whole world learns to wait for spring.
 moral: Even the longest winter is only the world waiting for someone it loves.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Long ago, before there were seasons, the world was always warm.

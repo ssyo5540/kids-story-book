@@ -2,7 +2,9 @@
 title: The Lion and the Clever Rabbit
 summary: A small rabbit with a big idea teaches a greedy lion that the forest is for sharing.
 moral: A calm, clever mind is stronger than a loud roar.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In a forest full of tall grass and tumbling streams there lived a lion called Bhasuraka. He was large and golden and very proud, and he had one bad habit. He was greedy.

@@ -2,7 +2,9 @@
 title: Dhruva, the Boy Who Became a Star
 summary: A little prince who is told he cannot sit on his father's lap walks into the forest to find something that can never be taken away, and ends up shining over every bedtime in the world.
 moral: When you keep going quietly, you can become something steady and bright.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 If you look up on a clear night and find the one star that never moves, the star that all the other stars circle around, you are looking at Dhruva.

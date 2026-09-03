@@ -2,7 +2,9 @@
 title: The Churning of the Ocean
 summary: When the gods lose their shine, they must work together with their noisy cousins to churn a whole ocean of milk, and out of it rise wonders nobody expected.
 moral: Even people who disagree can make something wonderful when they pull together.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 ## The Gods Lose Their Shine

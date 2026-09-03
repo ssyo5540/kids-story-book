@@ -2,7 +2,9 @@
 title: The Pot That Never Emptied
 summary: Deep in the forest, a magic copper pot feeds five brothers and their friends, until one evening a single grain of rice has to be enough.
 moral: A small gift shared with love can fill everyone up.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 Once, for a long while, the five Pandava brothers lived in the forest instead of a palace. They slept under trees. They washed in rivers. And they had very little to eat.

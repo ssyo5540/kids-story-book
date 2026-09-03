@@ -2,7 +2,9 @@
 title: The Little Squirrel Who Helped Build the Bridge
 summary: When the monkeys build a bridge across the sea, one tiny squirrel decides that she will help too, one pebble at a time.
 moral: No helper is too small to matter.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 On a wide sandy shore, where the land ended and the blue sea began, there was a great deal of noise.

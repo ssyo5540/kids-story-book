@@ -2,7 +2,9 @@
 title: The Blue Jackal
 summary: A hungry jackal tumbles into a tub of blue dye, and for a little while the whole forest believes he is a king.
 moral: It feels much better to be yourself than to pretend.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 At the edge of a great green forest there was a small town, and at the edge of the town lived a jackal named Chandarava. He had a thin grey coat, a bushy tail, and a stomach that was very often empty.

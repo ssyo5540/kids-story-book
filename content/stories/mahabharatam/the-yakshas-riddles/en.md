@@ -2,7 +2,9 @@
 title: The Yaksha's Riddles by the Lake
 summary: One by one, four thirsty brothers fall asleep beside a magical lake, until the eldest stops to listen to the voice in the reeds and answer its riddles.
 moral: Listening first is the wisest kind of strength.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 It was the hottest day of the whole summer. The five Pandava brothers had been walking through the forest since sunrise, and their water pots were empty, and their throats were dry as dust.

@@ -2,7 +2,9 @@
 title: Bhima Meets Hanuman in the Forest
 summary: The strongest of the Pandava brothers sets out to find a golden flower and finds instead an old monkey whose tail he cannot move.
 moral: Real strength is gentle.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 High in the mountains, where the air is cool and the pine trees whisper, the five Pandava brothers made their camp. It was the time of their long stay in the forest, and every day was an adventure, though not always a comfortable one.

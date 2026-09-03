@@ -2,7 +2,9 @@
 title: The Four Friends
 summary: A crow, a mouse, a tortoise and a deer are the unlikeliest of friends, and when one of them is caught in a net, the other three prove exactly how good friends can be.
 moral: Friends who are different from each other are the strongest friends of all.
-reviewStatus: needs_review
+reviewStatus: approved
+reviewer: Satwik Rudra
+reviewedAt: 2026-09-03
 ---
 
 In a forest where the trees grew close together and the light came down in green patches, there was a lake. It was not a large lake. But it had cool water and soft banks and a great many reeds, and it was home to four very different friends.
