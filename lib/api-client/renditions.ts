@@ -120,8 +120,9 @@ export async function resolveRendition(ref: RenditionRef, opts: ResolveOptions =
   opts.onProgress?.(job, fallback);
   const t0 = Date.now();
   while (!TERMINAL_STATES.has(job.state)) {
-    await sleep(pollInterval(Date.now() - t0), signal);
-    if (typeof document !== "undefined" && document.hidden) continue; // timers are throttled anyway; skip work while hidden
+    // Keep polling while the tab is hidden (screen locked mid-"Preparing"), just less often.
+    const hidden = typeof document !== "undefined" && document.hidden;
+    await sleep(Math.max(pollInterval(Date.now() - t0), hidden ? 5000 : 0), signal);
     const next = await fetchJob(job.jobId, signal);
     if (!next) {
       // job expired from the registry (server restart); ask again — it is either ready now or restarts

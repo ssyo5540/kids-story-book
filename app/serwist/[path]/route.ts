@@ -17,6 +17,7 @@ export const { dynamic, dynamicParams, revalidate, generateStaticParams, GET } =
     { url: "/downloads", revision },
     { url: "/settings", revision },
     { url: "/~offline", revision },
-    { url: "/audio/silence-1s.mp3", revision },
+    // Files under public/ (silence clip, ambience loops, icons) are precached automatically with content hashes;
+    // listing one here again makes Workbox reject the whole precache list (conflicting revisions).
   ],
 });
