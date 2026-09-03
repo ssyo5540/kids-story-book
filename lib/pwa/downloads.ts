@@ -84,6 +84,8 @@ export async function downloadRendition(
       createdAt: Date.now(),
     };
     await (await getDb()).put("downloads", record);
+    // Ask the browser to keep offline stories out of the evictable bucket (iOS clears idle site data after 7 days).
+    void requestPersistentStorage().catch(() => undefined);
     return record;
   } catch (e) {
     await cache.delete(audioUrl);

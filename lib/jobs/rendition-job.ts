@@ -126,7 +126,9 @@ export async function runRenditionJob(
             ipa: chunk.ipa,
           });
           latencies.push(Date.now() - t0);
-          await fs.writeFile(file, res.pcm);
+          // Write-then-rename so a kill mid-write can never leave a truncated chunk for a later resume to trust.
+          await fs.writeFile(`${file}.tmp`, res.pcm);
+          await fs.rename(`${file}.tmp`, file);
           ledger.commit(reservation.id, chunk.chars, plan.locale);
           committed += chunk.chars;
           done++;

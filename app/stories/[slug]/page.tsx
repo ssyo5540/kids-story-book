@@ -13,10 +13,8 @@ import { findStory, getPublicCatalog, publishedLangs } from "@/lib/content/serve
 import { LANG_INFO, type Lang } from "@/lib/content/types";
 import { formatDurationClass } from "@/lib/utils/time";
 
-export async function generateStaticParams() {
-  const catalog = await getPublicCatalog();
-  return catalog.stories.map((s) => ({ slug: s.id }));
-}
+// Rendered per request so the publishing gate is a runtime decision, not a build-time one.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(props: PageProps<"/stories/[slug]">): Promise<Metadata> {
   const { slug } = await props.params;
@@ -62,7 +60,17 @@ export default async function StoryPage(props: PageProps<"/stories/[slug]">) {
 
         <div className="min-w-0 flex-1 space-y-4 text-center sm:text-left">
           <div className="space-y-1">
-            <MythologyTag m={card.mythology} />
+            <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+              <MythologyTag m={card.mythology} />
+              {found.story.texts.en?.reviewStatus !== "approved" ? (
+                <span
+                  className="rounded-pill border border-dashed border-lamp-300/60 bg-lamp-300/10 px-2.5 py-0.5 font-display text-xs font-bold text-lamp-200"
+                  title="This story has not been checked by a reviewer yet"
+                >
+                  Not yet reviewed
+                </span>
+              ) : null}
+            </div>
             <h1 className="font-display text-3xl font-extrabold leading-tight text-balance sm:text-5xl">
               {card.title.en}
             </h1>

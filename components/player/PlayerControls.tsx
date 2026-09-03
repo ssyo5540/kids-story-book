@@ -8,7 +8,7 @@ export function PlayerControls({ size = "lg" }: { size?: "sm" | "lg" }) {
   const status = usePlayerStore((s) => s.status);
   const toggle = usePlayerStore((s) => s.toggle);
   const skip = usePlayerStore((s) => s.skip);
-  const busy = status === "preparing" || status === "loading";
+  const busy = status === "preparing" || status === "loading" || status === "error";
   const playing = status === "playing" || status === "buffering";
   const big = size === "lg";
   return (

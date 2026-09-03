@@ -7,10 +7,8 @@ import { MythologyTag } from "@/components/catalog/MythologyTag";
 import { getPublicCatalog } from "@/lib/content/server";
 import { formatDurationClass } from "@/lib/utils/time";
 
-export async function generateStaticParams() {
-  const catalog = await getPublicCatalog();
-  return catalog.collections.map((c) => ({ slug: c.id }));
-}
+// Rendered per request so the publishing gate is a runtime decision, not a build-time one.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(props: PageProps<"/collections/[slug]">): Promise<Metadata> {
   const { slug } = await props.params;

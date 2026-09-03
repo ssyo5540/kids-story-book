@@ -2,6 +2,8 @@ import type { NextRequest } from "next/server";
 import { findStory } from "@/lib/content/server";
 import { LANGS, type Lang } from "@/lib/content/types";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(_req: NextRequest, ctx: RouteContext<"/api/stories/[storyId]/[lang]">) {
   const { storyId, lang } = await ctx.params;
   if (!(LANGS as readonly string[]).includes(lang))

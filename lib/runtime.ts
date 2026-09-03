@@ -29,6 +29,9 @@ export interface Runtime {
 
 type G = typeof globalThis & { __nightlightRuntime?: Promise<Runtime> };
 
+/** After a failed build (bad credentials, storage outage) wait this long before trying again. */
+const FAILURE_COOLDOWN_MS = 30_000;
+
 /** Remove job temp dirs older than a day (interrupted runs). */
 async function purgeStaleTmp(cfg: AppConfig, log: Logger) {
   const root = path.join(cfg.TMPDIR ?? os.tmpdir(), "nightlight-jobs");
@@ -75,10 +78,15 @@ async function build(): Promise<Runtime> {
 export function ensureRuntimeReady(): Promise<Runtime> {
   const g = globalThis as G;
   if (!g.__nightlightRuntime) {
-    g.__nightlightRuntime = build().catch((e) => {
-      g.__nightlightRuntime = undefined;
+    const attempt = build().catch((e) => {
+      // Keep the rejected promise around briefly so every request and health probe during an outage
+      // does not each re-list the bucket; then allow a fresh attempt.
+      setTimeout(() => {
+        if (g.__nightlightRuntime === attempt) g.__nightlightRuntime = undefined;
+      }, FAILURE_COOLDOWN_MS).unref?.();
       throw e;
     });
+    g.__nightlightRuntime = attempt;
   }
   return g.__nightlightRuntime;
 }

@@ -63,3 +63,22 @@ describe("RateLimiter", () => {
     expect(Date.now() - t0).toBeGreaterThanOrEqual(8);
   });
 });
+
+describe("JobQueue shutdown", () => {
+  it("fails jobs that never started so pollers do not wait forever, and stops accepting", async () => {
+    const q = new JobQueue(1);
+    const slow = q.enqueue(initial("running"), async (update) => {
+      await new Promise((r) => setTimeout(r, 60));
+      update({ state: "ready", percent: 100 });
+    });
+    const waiting = q.enqueue(initial("waiting"), async () => undefined);
+    waiting.promise.catch(() => undefined);
+    const drained = await q.drain(1000);
+    expect(drained).toBe(true);
+    expect(q.isAccepting).toBe(false);
+    expect(q.get("waiting")?.state).toBe("failed");
+    expect(q.get("running")?.state).toBe("ready");
+    await slow.promise;
+    expect(() => q.enqueue(initial("late"), async () => undefined)).toThrow(/shutting down/);
+  });
+});

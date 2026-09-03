@@ -1,6 +1,7 @@
 import { getPublicCatalog } from "@/lib/content/server";
 
-export const dynamic = "force-static";
+// Rendered per request so the publishing gate (CONTENT_INCLUDE_UNREVIEWED) is a runtime decision.
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   const catalog = await getPublicCatalog();

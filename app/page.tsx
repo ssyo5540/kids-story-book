@@ -3,6 +3,9 @@ import { QuickDurationRow } from "@/components/catalog/QuickDurationRow";
 import { TonightPick } from "@/components/catalog/TonightPick";
 import { getPublicCatalog } from "@/lib/content/server";
 
+// Rendered per request so the publishing gate is a runtime decision, not a build-time one.
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const catalog = await getPublicCatalog();
   return (

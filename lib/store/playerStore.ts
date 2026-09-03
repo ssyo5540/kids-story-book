@@ -170,10 +170,18 @@ export const usePlayerStore = create<PlayerState>()((set, get) => {
     return startAt;
   };
 
+  /** The story that was loaded before the current load() started (restored on cancel). */
+  let previousLoaded: PlayerState["now"] = null;
+
   const handleLoadError = (e: unknown) => {
     if ((e as Error)?.name === "AbortError") return;
     if (e instanceof RenditionUnavailableError) {
-      const code = e.reason === "unknown_story" || e.reason === "unknown_voice" ? "failed" : e.reason;
+      const code =
+        e.reason === "unknown_story" || e.reason === "unknown_voice"
+          ? "failed"
+          : e.reason === "rate_limited"
+            ? "disabled"
+            : e.reason;
       set({
         status: "error",
         preparing: null,
@@ -181,15 +189,20 @@ export const usePlayerStore = create<PlayerState>()((set, get) => {
       });
       return;
     }
+    // A bare fetch TypeError means the network is gone (offline, DNS, blocked); never show its raw text.
+    const offline = e instanceof TypeError || (typeof navigator !== "undefined" && navigator.onLine === false);
     set({
       status: "error",
       preparing: null,
       error: {
-        code: "failed",
-        message: (e as Error)?.message ?? "Something went wrong.",
+        code: offline ? "network" : "failed",
+        message: offline
+          ? "You seem to be offline. Downloaded stories still play from the Downloads page."
+          : "Something went wrong while preparing this story. Please try again.",
         fallback: get().preparing?.fallback,
       },
     });
+    if (!offline) console.warn("[player] load failed:", e);
   };
 
   return {
@@ -213,6 +226,9 @@ export const usePlayerStore = create<PlayerState>()((set, get) => {
       engine.unlock();
       const settings = useSettingsStore.getState();
       const rate = get().now ? get().rate : settings.defaultRate;
+      // Remember what was loaded so cancelling this switch can put it back instead of emptying the player.
+      const before = get().now;
+      previousLoaded = before?.info ? before : null;
       set({
         now: { story, ref, info: null, manifest: null, fromDownload: false },
         status: "preparing",
@@ -279,7 +295,13 @@ export const usePlayerStore = create<PlayerState>()((set, get) => {
       } catch (e) {
         if ((e as Error)?.name === "NotAllowedError")
           set({ status: "paused", error: { code: "autoplay", message: "Tap play to start the story." } });
-        else set({ status: "error", error: { code: "failed", message: (e as Error)?.message ?? "Could not play." } });
+        else {
+          console.warn("[player] play failed:", e);
+          set({
+            status: "error",
+            error: { code: "failed", message: "This story could not start playing. Please try again." },
+          });
+        }
       }
     },
 
@@ -345,8 +367,20 @@ export const usePlayerStore = create<PlayerState>()((set, get) => {
     cancelPreparing() {
       abort?.abort();
       const s = get();
-      if (s.status === "preparing")
-        set({ status: engine.hasSource ? "paused" : "idle", preparing: null, now: engine.hasSource ? s.now : null });
+      if (s.status !== "preparing") return;
+      const restore = previousLoaded && engine.hasSource ? previousLoaded : null;
+      previousLoaded = null;
+      set(
+        restore
+          ? {
+              status: "paused",
+              preparing: null,
+              error: null,
+              now: restore,
+              duration: (restore.info?.durationMs ?? 0) / 1000,
+            }
+          : { status: "idle", preparing: null, error: null, now: null, position: 0, duration: 0 },
+      );
     },
 
     setSleepTimer(mode, minutes) {

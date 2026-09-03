@@ -27,6 +27,15 @@ export function ProgressRing({ percent, className }: { percent: number; classNam
   );
 }
 
+function describeRetryAfter(iso: string): string {
+  const at = new Date(iso);
+  if (Number.isNaN(at.getTime())) return "later";
+  const hours = (at.getTime() - Date.now()) / 3600_000;
+  if (hours < 1) return "within the hour";
+  if (hours < 20) return "tomorrow";
+  return `on ${at.toLocaleDateString(undefined, { month: "long", day: "numeric" })}`;
+}
+
 export function PreparingState({ personaName }: { personaName: string }) {
   const preparing = usePlayerStore((s) => s.preparing);
   const status = usePlayerStore((s) => s.status);
@@ -47,7 +56,10 @@ export function PreparingState({ personaName }: { personaName: string }) {
         <p className="font-display text-lg font-bold">
           {gentle ? "This voice is resting tonight" : "Something went wrong"}
         </p>
-        <p className="text-sm text-fg-muted">{error.message}</p>
+        <p className="text-sm text-fg-muted">
+          {error.message}
+          {error.retryAfter ? ` It should be back ${describeRetryAfter(error.retryAfter)}.` : ""}
+        </p>
         <div className="flex flex-wrap justify-center gap-2">
           {error.fallback ? <Button onClick={() => void playDefault()}>Play in the default voice</Button> : null}
           {!gentle && now ? (
@@ -60,6 +72,15 @@ export function PreparingState({ personaName }: { personaName: string }) {
           ) : null}
         </div>
       </div>
+    );
+  }
+
+  // The browser refused to start audio after the wait (autoplay policy): a tap on Play is all that is needed.
+  if (status === "paused" && error?.code === "autoplay") {
+    return (
+      <output className="block rounded-card border border-line bg-white/5 px-4 py-3 text-center text-sm text-fg-muted">
+        {personaName} is ready. Tap play to start the story.
+      </output>
     );
   }
 

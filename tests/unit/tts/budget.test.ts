@@ -75,3 +75,33 @@ describe("BudgetLedger", () => {
     if (!again.ok) expect(again.reason).toBe("daily");
   });
 });
+
+describe("BudgetLedger daily cap across writers", () => {
+  it("counts what other writers spent today, not only its own file", async () => {
+    const storage = new MemoryStorage();
+    await storage.put(
+      "usage/2026-09/cli-laptop.json",
+      Buffer.from(
+        JSON.stringify({
+          writerId: "cli-laptop",
+          month: "2026-09",
+          chars: 400,
+          requests: 1,
+          renditions: 1,
+          interruptedChars: 0,
+          byLocale: {},
+          days: { "2026-09-02": 400 },
+          updatedAt: "",
+        }),
+      ),
+      { contentType: "application/json" },
+    );
+    const ledger = new BudgetLedger(storage, "server-abc", 10_000, 500, at("2026-09-02T10:00:00Z"));
+    await ledger.load();
+    expect(ledger.snapshot().usedToday).toBe(400);
+    const r = ledger.reserve(200);
+    expect(r.ok).toBe(false);
+    if (!r.ok) expect(r.reason).toBe("daily");
+    expect(ledger.reserve(50).ok).toBe(true);
+  });
+});

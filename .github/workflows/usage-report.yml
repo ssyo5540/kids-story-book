@@ -10,8 +10,12 @@ jobs:
     permissions:
       issues: write
     steps:
-      - run: |
-          curl -fsS -H "Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" "${{ vars.APP_URL }}/api/admin/usage" > usage.json
+      - env:
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          APP_URL: ${{ vars.APP_URL }}
+        run: |
+          test -n "$ADMIN_TOKEN" || { echo "ADMIN_TOKEN secret is not set"; exit 1; }
+          curl -fsS -H "Authorization: Bearer $ADMIN_TOKEN" "$APP_URL/api/admin/usage" > usage.json
           node -e '
             const u = require("./usage.json");
             const lines = [

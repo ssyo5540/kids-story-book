@@ -42,13 +42,15 @@ export function nextUtcMidnight(d = new Date()): string {
 }
 
 /**
- * Monthly character ledger. Each writer (server, cli-<host>) owns one JSON file per month in storage,
- * so there are no write races; other writers' totals are read at load and refreshed periodically.
+ * Monthly character ledger. Each writer owns one JSON file per month in storage, so there are no write
+ * races as long as writer ids are unique per running process (the server derives its id from the
+ * deployment, see lib/config.ts); other writers' totals are read at load and refreshed periodically.
  * Reservations are in-memory and atomic (single-threaded JS).
  */
 export class BudgetLedger {
   private own: UsageFile;
-  private others = new Map<string, number>();
+  /** Other writers' month total and today's total (so the daily cap is shared across writers too). */
+  private others = new Map<string, { chars: number; today: number }>();
   private reservations = new Map<string, number>();
   private loaded = false;
   private lastRefresh = 0;
@@ -106,7 +108,8 @@ export class BudgetLedger {
     if (!force && t - this.lastRefresh < 5 * 60_000) return;
     this.lastRefresh = t;
     const keys = await this.storage.list(`usage/${monthKey(this.now())}/`);
-    const next = new Map<string, number>();
+    const next = new Map<string, { chars: number; today: number }>();
+    const today = dayKey(this.now());
     for (const k of keys) {
       if (!k.endsWith(".json")) continue;
       const writer =
@@ -116,14 +119,20 @@ export class BudgetLedger {
           ?.replace(/\.json$/, "") ?? "";
       if (!writer || writer === this.writerId) continue;
       const f = await this.storage.getJson<UsageFile>(k);
-      if (f) next.set(writer, f.chars);
+      if (f) next.set(writer, { chars: f.chars ?? 0, today: f.days?.[today] ?? 0 });
     }
     this.others = next;
   }
 
   private usedTotal(): number {
     let n = this.own.chars;
-    for (const v of this.others.values()) n += v;
+    for (const v of this.others.values()) n += v.chars;
+    return n;
+  }
+
+  private usedTodayTotal(): number {
+    let n = this.own.days[dayKey(this.now())] ?? 0;
+    for (const v of this.others.values()) n += v.today;
     return n;
   }
 
@@ -137,7 +146,7 @@ export class BudgetLedger {
     this.rollMonth();
     const used = this.usedTotal();
     const reserved = this.reservedTotal();
-    const usedToday = this.own.days[dayKey(this.now())] ?? 0;
+    const usedToday = this.usedTodayTotal();
     return {
       month: this.own.month,
       used,
@@ -149,7 +158,7 @@ export class BudgetLedger {
       remainingToday: Math.max(0, this.dailyBudget - usedToday - reserved),
       writers: [
         { writerId: this.writerId, chars: this.own.chars },
-        ...[...this.others.entries()].map(([writerId, chars]) => ({ writerId, chars })),
+        ...[...this.others.entries()].map(([writerId, v]) => ({ writerId, chars: v.chars })),
       ],
     };
   }

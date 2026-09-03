@@ -48,6 +48,11 @@ export class JobQueue {
     this.accepting = false;
   }
 
+  /** False once shutdown has begun; callers should answer "try again shortly" instead of enqueueing. */
+  get isAccepting() {
+    return this.accepting;
+  }
+
   /** Enqueue (or attach to an existing active job with the same id). */
   enqueue<T>(
     initial: JobProgress,
@@ -108,6 +113,15 @@ export class JobQueue {
   /** Wait for running jobs to finish (used on SIGTERM). */
   async drain(timeoutMs: number): Promise<boolean> {
     this.stopAccepting();
+    // Jobs that never started will not run in this process; tell pollers so they re-request after the restart.
+    for (const id of this.pending) {
+      const e = this.entries.get(id);
+      if (e && !e.started) {
+        Object.assign(e.progress, { state: "failed", error: "restarting", updatedAt: new Date().toISOString() });
+        e.finishedAt = Date.now();
+        e.reject(new Error("queue is shutting down"));
+      }
+    }
     this.pending = [];
     const deadline = Date.now() + timeoutMs;
     while (this.running > 0 && Date.now() < deadline) await new Promise((r) => setTimeout(r, 200));

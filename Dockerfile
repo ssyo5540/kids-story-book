@@ -27,8 +27,11 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* \
  && ffmpeg -version | head -1
 WORKDIR /app
+# NEXT_MANUAL_SIG_HANDLE lets instrumentation-node.ts drain running audio jobs on SIGTERM instead of
+# Next.js exiting immediately. TINI_SUBREAPER keeps orphaned ffmpeg children reaped when tini is not PID 1.
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 HOSTNAME=0.0.0.0 PORT=3000 \
-    TMPDIR=/app/tmp NODE_OPTIONS=--max-old-space-size=384 CONTENT_DIR=/app/content
+    TMPDIR=/app/tmp NODE_OPTIONS=--max-old-space-size=384 CONTENT_DIR=/app/content \
+    NEXT_MANUAL_SIG_HANDLE=true TINI_SUBREAPER=1
 RUN mkdir -p /app/tmp && chown -R node:node /app
 COPY --from=build --chown=node:node /app/.next/standalone ./
 COPY --from=build --chown=node:node /app/.next/static ./.next/static

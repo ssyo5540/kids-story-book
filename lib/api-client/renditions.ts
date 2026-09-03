@@ -16,6 +16,7 @@ export type UnavailableReason =
   | "unpublished"
   | "unknown_voice"
   | "unknown_story"
+  | "rate_limited"
   | "network";
 
 export class RenditionUnavailableError extends Error {
@@ -42,10 +43,34 @@ export interface ResolveOptions {
   lookupDownload?: (ref: RenditionRef) => Promise<ResolvedRendition | null>;
 }
 
+/** Turn an HTTP failure into copy a tired parent can act on; the status code stays in the console only. */
+function describeStatus(status: number): { reason: UnavailableReason; message: string } {
+  if (status === 403)
+    return { reason: "failed", message: "This page could not talk to the story server. Please reload and try again." };
+  if (status === 404) return { reason: "unknown_story", message: "We could not find that story." };
+  if (status === 429)
+    return {
+      reason: "disabled",
+      message: "That is enough new voices for today. Try again tomorrow, or listen in the default voice.",
+    };
+  if (status >= 500)
+    return { reason: "failed", message: "The story server is having a moment. Please try again shortly." };
+  return { reason: "network", message: "Something went wrong while asking for this voice." };
+}
+
 async function json<T>(res: Response): Promise<T> {
-  if (!res.ok && res.status !== 202) throw new RenditionUnavailableError("network", `request failed (${res.status})`);
+  if (!res.ok && res.status !== 202) {
+    const d = describeStatus(res.status);
+    console.warn(`[renditions] request failed (${res.status})`);
+    throw new RenditionUnavailableError(d.reason, d.message);
+  }
   return (await res.json()) as T;
 }
+
+/** Give up on a stalled job after this long; the longest story generates in well under this. */
+const POLL_DEADLINE_MS = 15 * 60_000;
+/** A job id that keeps vanishing means the server keeps restarting; stop re-requesting after a few tries. */
+const MAX_JOB_RESTARTS = 3;
 
 export async function fetchReadyVoices(
   storyId: string,
@@ -119,13 +144,26 @@ export async function resolveRendition(ref: RenditionRef, opts: ResolveOptions =
   let job = first.job;
   opts.onProgress?.(job, fallback);
   const t0 = Date.now();
+  let restarts = 0;
   while (!TERMINAL_STATES.has(job.state)) {
+    if (Date.now() - t0 > POLL_DEADLINE_MS)
+      throw new RenditionUnavailableError(
+        "failed",
+        "This voice is taking far too long tonight. Try the default voice.",
+        fallback,
+      );
     // Keep polling while the tab is hidden (screen locked mid-"Preparing"), just less often.
     const hidden = typeof document !== "undefined" && document.hidden;
     await sleep(Math.max(pollInterval(Date.now() - t0), hidden ? 5000 : 0), signal);
     const next = await fetchJob(job.jobId, signal);
     if (!next) {
       // job expired from the registry (server restart); ask again — it is either ready now or restarts
+      if (++restarts > MAX_JOB_RESTARTS)
+        throw new RenditionUnavailableError(
+          "failed",
+          "The story server keeps restarting. Please try again in a few minutes.",
+          fallback,
+        );
       const again = await requestRendition(ref, signal);
       if (again.status === "ready")
         return {

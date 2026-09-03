@@ -14,20 +14,22 @@ export class RenditionIndex {
 
   constructor(private readonly storage: StorageAdapter) {}
 
-  async warm(): Promise<number> {
-    const keys = await this.storage.list("audio/");
+  /** Load every manifest with bounded concurrency so a large bucket does not fan out thousands of GETs at boot. */
+  async warm(concurrency = 16): Promise<number> {
+    const keys = (await this.storage.list("audio/")).filter((k) => k.endsWith(".json") && parseManifestKey(k));
     let n = 0;
-    await Promise.all(
-      keys
-        .filter((k) => k.endsWith(".json") && parseManifestKey(k))
-        .map(async (k) => {
-          const m = await this.storage.getJson<RenditionManifest>(k);
-          if (m) {
-            this.byKey.set(m.key, toInfo(m));
-            n++;
-          }
-        }),
-    );
+    let cursor = 0;
+    const worker = async () => {
+      while (cursor < keys.length) {
+        const k = keys[cursor++];
+        const m = await this.storage.getJson<RenditionManifest>(k);
+        if (m) {
+          this.byKey.set(m.key, toInfo(m));
+          n++;
+        }
+      }
+    };
+    await Promise.all(Array.from({ length: Math.min(concurrency, keys.length) }, worker));
     this.warmed = true;
     return n;
   }

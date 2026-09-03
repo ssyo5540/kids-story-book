@@ -29,7 +29,8 @@ const schema = z.object({
   TTS_LAZY_ENABLED: bool.default(true),
   TTS_MONTHLY_CHAR_BUDGET: z.coerce.number().int().nonnegative().default(900_000),
   TTS_DAILY_CHAR_BUDGET: z.coerce.number().int().nonnegative().default(150_000),
-  TTS_WRITER_ID: z.string().default("server"),
+  /** Ledger file name. Unset on the server: derived per deployment so overlapping containers never share a file. */
+  TTS_WRITER_ID: z.string().optional(),
   TTS_MAX_RPM: z.coerce.number().int().positive().default(100),
   TTS_CONCURRENCY: z.coerce.number().int().positive().default(3),
   JOBS_CONCURRENCY: z.coerce.number().int().positive().default(2),
@@ -47,10 +48,17 @@ const schema = z.object({
   FFPROBE_PATH: z.string().default("ffprobe"),
 });
 
-export type AppConfig = z.infer<typeof schema> & {
+export type AppConfig = Omit<z.infer<typeof schema>, "TTS_WRITER_ID"> & {
+  TTS_WRITER_ID: string;
   customPronunciationLocales: string[];
   isProd: boolean;
 };
+
+/** "server" locally; "server-<deployment>" on Railway so old and new containers write separate ledger files. */
+function defaultWriterId(): string {
+  const dep = process.env.RAILWAY_DEPLOYMENT_ID ?? process.env.RAILWAY_REPLICA_ID;
+  return dep ? `server-${dep.replace(/[^a-zA-Z0-9]/g, "").slice(0, 8)}` : "server";
+}
 
 let cached: AppConfig | null = null;
 
@@ -82,6 +90,7 @@ export function getConfig(): AppConfig {
 
   cached = {
     ...cfg,
+    TTS_WRITER_ID: cfg.TTS_WRITER_ID?.trim() || defaultWriterId(),
     isProd,
     customPronunciationLocales: cfg.TTS_CUSTOM_PRONUNCIATION_LOCALES.split(",")
       .map((s) => s.trim())

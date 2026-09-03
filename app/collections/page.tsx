@@ -3,6 +3,9 @@ import { Suspense } from "react";
 import { CatalogBrowser } from "@/components/catalog/CatalogBrowser";
 import { getPublicCatalog } from "@/lib/content/server";
 
+// Rendered per request so the publishing gate is a runtime decision, not a build-time one.
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = { title: "Stories" };
 
 export default async function CollectionsPage() {

@@ -3,7 +3,14 @@ import { expect, test } from "@playwright/test";
 test("health, catalog and voices respond", async ({ request }) => {
   const health = await request.get("/api/health");
   expect(health.ok()).toBeTruthy();
-  expect((await health.json()).ffmpeg).toContain("ffmpeg");
+  const h = await health.json();
+  expect(h.checks).toEqual({ ffmpeg: true, runtime: true });
+  expect(h.detail).toBeUndefined(); // drivers, budget and queue detail are for admin callers only
+  const oversized = await request.post("/api/audio/renditions", {
+    data: { storyId: "x".repeat(3000), locale: "en-IN", voice: "default" },
+    headers: { "sec-fetch-site": "same-origin" },
+  });
+  expect(oversized.status()).toBe(413);
   const catalog = await request.get("/api/catalog");
   expect((await catalog.json()).stories.length).toBeGreaterThan(0);
   const voices = await request.get("/api/voices");
