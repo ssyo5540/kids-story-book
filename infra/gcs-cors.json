@@ -1,6 +1,6 @@
 [
   {
-    "origin": ["https://YOUR-APP-DOMAIN", "http://localhost:3000", "http://localhost:3100"],
+    "origin": ["https://nightlight-stories.up.railway.app", "http://localhost:3000", "http://localhost:3100"],
     "method": ["GET", "HEAD"],
     "responseHeader": [
       "Content-Type",
