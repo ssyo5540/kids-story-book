@@ -23,6 +23,8 @@ const schema = z.object({
   GCP_SA_KEY_JSON: z.string().optional(),
 
   TTS_DRIVER: z.enum(["google", "fake"]).default("fake"),
+  /** Escape hatch for the fake-driver-into-real-bucket guard; never set this on Railway. */
+  ALLOW_FAKE_TTS_TO_GCS: bool.default(false),
   TTS_ENABLED: bool.default(true),
   TTS_LAZY_ENABLED: bool.default(true),
   TTS_MONTHLY_CHAR_BUDGET: z.coerce.number().int().nonnegative().default(900_000),
@@ -67,6 +69,12 @@ export function getConfig(): AppConfig {
   }
   if (isProd && cfg.TTS_DRIVER === "google" && !cfg.GCP_SA_KEY_JSON) {
     throw new Error("TTS_DRIVER=google requires GCP_SA_KEY_JSON in production");
+  }
+  if (cfg.STORAGE_DRIVER === "gcs" && cfg.TTS_DRIVER === "fake" && !cfg.ALLOW_FAKE_TTS_TO_GCS) {
+    throw new Error(
+      "TTS_DRIVER=fake with STORAGE_DRIVER=gcs would upload placeholder audio into the real bucket, where it is cached " +
+        "for good. Set TTS_DRIVER=google, or STORAGE_DRIVER=local for offline work (ALLOW_FAKE_TTS_TO_GCS=true overrides).",
+    );
   }
   if (cfg.ADMIN_TOKEN && cfg.ADMIN_TOKEN.length < 32) {
     throw new Error("ADMIN_TOKEN must be at least 32 characters (or unset to disable admin routes)");
